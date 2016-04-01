@@ -1,0 +1,22 @@
+{
+  "name": "garrett-zaino",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zainogj/garrett-zaino.git"
+  },
+  "author": "zainogj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zainogj/garrett-zaino/issues"
+  },
+  "homepage": "https://github.com/zainogj/garrett-zaino#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
