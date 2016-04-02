@@ -6883,7 +6883,7 @@ a.slds-button--inverse:focus {
   padding: 1rem;
   border-radius: 0.25rem;
   background-clip: padding-box;
-  border: 1px solid #d8dde6; }
+  border: 1px solid #d8d8c6; /*#d8dde6;*/ }
 
 .slds-box--x-small {
   padding: 0.5rem; }
@@ -6895,7 +6895,7 @@ a.slds-button--inverse:focus {
   padding: 0;
   border-radius: 0.25rem;
   background-clip: padding-box;
-  border: 1px solid #d8dde6; }
+  border: 1px solid #d8d8c6; /*#d8dde6;*/ }
 
 .slds-theme--default {
   background-color: #f1e9dd; /*white;*/}
@@ -6904,7 +6904,7 @@ a.slds-button--inverse:focus {
   background-color: #e8dcca; /*#f4f6f9;*/}
 
 .slds-theme--inverse {
-  background-color: #46423b; /*#061c3f;*/
+  background-color: #6e675c; /*#061c3f;*/
   color: #f6f1e9; /*white;*/
   border-color: #ACA190; /*#061c3f;*/}
 
@@ -6925,65 +6925,65 @@ a.slds-button--inverse:focus {
   color: rgba(246, 241, 233, 0.15); /*rgba(255, 255, 255, 0.15);*/ }
 
 .slds-theme--alt-inverse {
-  background-color: #16325c;
-  color: white;
-  border-color: #16325c; }
+  background-color: #7c7c6a; /*#16325c;*/
+  color: #f6f1e9; /*white;*/
+  border-color: #c2c26a; /*#16325c;*/ }
 
 .slds-theme--alt-inverse a:not(.slds-button--neutral) {
-  color: white;
+  color: #f6f1e9; /*white;*/
   text-decoration: underline; }
 
 .slds-theme--alt-inverse a:not(.slds-button--neutral):link, .slds-theme--alt-inverse a:not(.slds-button--neutral):visited {
-  color: white; }
+  color: #f6f1e9; /*white;*/ }
 
 .slds-theme--alt-inverse a:not(.slds-button--neutral):hover, .slds-theme--alt-inverse a:not(.slds-button--neutral):focus {
-  color: rgba(255, 255, 255, 0.75); }
+  color: rgba(246, 241, 233, 0.75);/*rgba(255, 255, 255, 0.75);*/ }
 
 .slds-theme--alt-inverse a:not(.slds-button--neutral):active {
-  color: rgba(255, 255, 255, 0.5); }
+  color: rgba(246, 241, 233, 0.5); /*rgba(255, 255, 255, 0.5);*/ }
 
 .slds-theme--alt-inverse a:not(.slds-button--neutral)[disabled] {
-  color: rgba(255, 255, 255, 0.15); }
+  color: rgba(246, 241, 233, 0.15); /*rgba(255, 255, 255, 0.15);*/ }
 
 .slds-theme--success {
-  color: white;
-  background-color: #04844b; }
+  color: #46423B; /*white;*/
+  background-color:#bcc189; /*04844b;*/ }
 
 .slds-theme--success a:not(.slds-button--neutral) {
-  color: white;
+  color: #46423B; /*white;*/
   text-decoration: underline; }
 
 .slds-theme--success a:not(.slds-button--neutral):link, .slds-theme--success a:not(.slds-button--neutral):visited {
-  color: white; }
+  color: #46423B; /*white;*/ }
 
 .slds-theme--success a:not(.slds-button--neutral):hover, .slds-theme--success a:not(.slds-button--neutral):focus {
-  color: rgba(255, 255, 255, 0.75); }
+  color: rgba(70, 66, 59, 0.75); /*rgba(255, 255, 255, 0.75);*/ }
 
 .slds-theme--success a:not(.slds-button--neutral):active {
-  color: rgba(255, 255, 255, 0.5); }
+  color: rgba(70, 66, 59, 0.5); /*rgba(255, 255, 255, 0.5);*/ }
 
 .slds-theme--success a:not(.slds-button--neutral)[disabled] {
-  color: rgba(255, 255, 255, 0.15); }
+  color: rgba(70, 66, 59, 0.15); /*rgba(255, 255, 255, 0.15);*/ }
 
 .slds-theme--info {
-  color: white;
+  color: #f6f1e9; /*white;*/
   background-color: #54698d; }
 
 .slds-theme--info a:not(.slds-button--neutral) {
-  color: white;
+  color: #f6f1e9; /*white;*/
   text-decoration: underline; }
 
 .slds-theme--info a:not(.slds-button--neutral):link, .slds-theme--info a:not(.slds-button--neutral):visited {
-  color: white; }
+  color: #f6f1e9; /*white;*/ }
 
 .slds-theme--info a:not(.slds-button--neutral):hover, .slds-theme--info a:not(.slds-button--neutral):focus {
-  color: rgba(255, 255, 255, 0.75); }
+  color: rgba(70, 66, 59, 0.75); /*rgba(255, 255, 255, 0.75);*/ }
 
 .slds-theme--info a:not(.slds-button--neutral):active {
-  color: rgba(255, 255, 255, 0.5); }
+  color: rgba(70, 66, 59, 0.5); /*rgba(255, 255, 255, 0.5);*/ }
 
 .slds-theme--info a:not(.slds-button--neutral)[disabled] {
-  color: rgba(255, 255, 255, 0.15); }
+  color: rgba(70, 66, 59, 0.15); /*rgba(255, 255, 255, 0.15);*/ }
 
 .slds-theme--warning {
   background-color: #ffb75d;
@@ -6993,24 +6993,24 @@ a.slds-button--inverse:focus {
   fill: #54698d; }
 
 .slds-theme--error {
-  color: white;
+  color: #f6f1e9; /*white;*/
   background-color: #c23934; }
 
 .slds-theme--error a:not(.slds-button--neutral) {
-  color: white;
+  color: #f6f1e9; /*white;*/
   text-decoration: underline; }
 
 .slds-theme--error a:not(.slds-button--neutral):link, .slds-theme--error a:not(.slds-button--neutral):visited {
-  color: white; }
+  color: #f6f1e9; /*white;*/ }
 
 .slds-theme--error a:not(.slds-button--neutral):hover, .slds-theme--error a:not(.slds-button--neutral):focus {
-  color: rgba(255, 255, 255, 0.75); }
+  color: rgba(70, 66, 59, 0.75); /*rgba(255, 255, 255, 0.75);*/ }
 
 .slds-theme--error a:not(.slds-button--neutral):active {
-  color: rgba(255, 255, 255, 0.5); }
+  color: rgba(70, 66, 59, 0.5); /*rgba(255, 255, 255, 0.5);*/ }
 
 .slds-theme--error a:not(.slds-button--neutral)[disabled] {
-  color: rgba(255, 255, 255, 0.15); }
+  color: rgba(70, 66, 59, 0.15); /*rgba(255, 255, 255, 0.15);*/ }
 
 .slds-theme--offline {
   color: white;
@@ -7030,7 +7030,7 @@ a.slds-button--inverse:focus {
   color: rgba(255, 255, 255, 0.5); }
 
 .slds-theme--offline a:not(.slds-button--neutral)[disabled] {
-  color: rgba(255, 255, 255, 0.15); }
+  color: rgba(246, 241, 233, 0.15); /*rgba(255, 255, 255, 0.15);*/ }
 
 .slds-theme--alert-texture {
   background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.035) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.035) 50%, rgba(0, 0, 0, 0.035) 75%, transparent 75%, transparent);
