@@ -6898,18 +6898,20 @@ a.slds-button--inverse:focus {
   border: 1px solid #d8dde6; }
 
 .slds-theme--default {
-  background-color: white; }
+  /*background-color: white;*/
+  background-color: #f1e9dd; }
 
 .slds-theme--shade {
-  background-color: #f4f6f9; }
+  /*background-color: #f4f6f9;*/
+  background-color: #e8dcca }
 
 .slds-theme--inverse {
-  background-color: #061c3f;
-  color: white;
-  border-color: #061c3f; }
+  background-color: #46423b; /*#061c3f;*/
+  color: #f6f1e9; /*white;*/
+  border-color: #ACA190; /*#061c3f;*/}
 
 .slds-theme--inverse a:not(.slds-button--neutral) {
-  color: white;
+  color: #f6f1e9/*white*/;
   text-decoration: underline; }
 
 .slds-theme--inverse a:not(.slds-button--neutral):link, .slds-theme--inverse a:not(.slds-button--neutral):visited {
