@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>garrett-zaino</title>
+		<title>garrett-zaino: home</title>
 		<link rel="stylesheet" type="text/css" href="/assets/styles/salesforce-lightning-design-system.css">
 	</head>
 	<body>
+		<div class="slds-tabs--default">
+			<ul class="slds-tabs--default__nav" role="tablist">
+				<il class="slds-tabs--default__item slds-text-heading--label slds-active" title="Home" role="presentation">
+					<a class="slds-tabs--default__link" href="/" role="tab" tabindex="0" aria-selected="true" aria-controls="tab-default-1" id="tab-default-1__item">Home</a>
+				</il>
+				<il class="slds-tabs--default__item slds-text-heading--label" title="About" role="presentation">
+					<a class="slds-tabs--default__link" href="/about.html" role="tab" tabindex="-1" aria-selected="false" aria-controls="tab-default-2" id="tab-default-2__item">About</a>
+				</il>
+			</ul>
+		</div>
+<br/>
+<br/>
+
 		<div class="slds-grid slds-grid--pull-padded">
 			<div class="slds-box slds-theme--default slds-col--padded">
 				<p>default</p>
@@ -31,6 +44,11 @@
 			</div>
 			<div class="slds-box slds-theme--error slds-col--padded">
 				<p>error <a href="#">link</a></p>
+			</div>
+		</div>
+		<div class="slds-grid slds-grid--pull-padded">
+			<div class="slds-box slds-theme--offline slds-col--padded">
+				<p>offline <a href="#">link</a></p>
 			</div>
 		</div>
 	</body>

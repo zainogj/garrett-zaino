@@ -5427,7 +5427,7 @@ a.slds-button--inverse:focus {
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
           align-items: flex-start;
-  border-bottom: 1px solid #d8dde6; }
+  border-bottom: 1px solid #aca190; /*#d8dde6;*/ }
 
 .slds-tabs--default .slds-tabs__item {
   overflow: hidden; }
@@ -5463,15 +5463,15 @@ a.slds-button--inverse:focus {
   color: #16325c; }
 
 .slds-tabs--default .slds-tabs__item > a:focus {
-  color: #0070d2;
-  box-shadow: #0070d2 0 -1px 0 inset; }
+  color: #c2c2a6;
+  box-shadow: #c2c2a6 0 -1px 0 inset; }
 
 .slds-tabs--default .slds-tabs__item.slds-active a {
-  border-color: #0070d2;
+  border-color: #c2c2a6; /*#0070d2;*/
   color: #16325c; }
 
 .slds-tabs--default .slds-tabs__item.slds-active a:focus {
-  color: #0070d2; }
+  color: #c2c2a6; /*#0070d2;*/ }
 
 .slds-tabs--default > .slds-tabs__content {
   position: relative;
@@ -5488,11 +5488,11 @@ a.slds-button--inverse:focus {
     margin-left: 1.5rem; } }
 
 .slds-tabs--default__item.slds-active .slds-tabs--default__link {
-  border-color: #0070d2;
-  color: #16325c; }
+  border-color: #c2c2a6; /*#0070d2;*/
+  color: #46423b; /*#16325c;*/ }
 
 .slds-tabs--default__item.slds-active .slds-tabs--default__link:focus {
-  color: #0070d2; }
+  color: #c2c2a6; /*#0070d2;*/ }
 
 .slds-tabs--default__content {
   position: relative;
@@ -6883,7 +6883,7 @@ a.slds-button--inverse:focus {
   padding: 1rem;
   border-radius: 0.25rem;
   background-clip: padding-box;
-  border: 1px solid #d8d8c6; /*#d8dde6;*/ }
+  border: 1px solid #e8dcca; /*#d8dde6;*/ }
 
 .slds-box--x-small {
   padding: 0.5rem; }
@@ -6895,13 +6895,13 @@ a.slds-button--inverse:focus {
   padding: 0;
   border-radius: 0.25rem;
   background-clip: padding-box;
-  border: 1px solid #d8d8c6; /*#d8dde6;*/ }
+  border: 1px solid #e8dcca; /*#d8dde6;*/ }
 
 .slds-theme--default {
   background-color: #f1e9dd; /*white;*/}
 
 .slds-theme--shade {
-  background-color: #e8dcca; /*#f4f6f9;*/}
+  background-color: #d8d8c6; /*#f4f6f9;*/}
 
 .slds-theme--inverse {
   background-color: #6e675c; /*#061c3f;*/
@@ -6927,7 +6927,7 @@ a.slds-button--inverse:focus {
 .slds-theme--alt-inverse {
   background-color: #7c7c6a; /*#16325c;*/
   color: #f6f1e9; /*white;*/
-  border-color: #c2c26a; /*#16325c;*/ }
+  border-color: #c2c2a6; /*#16325c;*/ }
 
 .slds-theme--alt-inverse a:not(.slds-button--neutral) {
   color: #f6f1e9; /*white;*/
@@ -6966,15 +6966,15 @@ a.slds-button--inverse:focus {
   color: rgba(70, 66, 59, 0.15); /*rgba(255, 255, 255, 0.15);*/ }
 
 .slds-theme--info {
-  color: #f6f1e9; /*white;*/
-  background-color: #54698d; }
+  color: #46423B; /*white;*/
+  background-color: #81d7e1; /*#54698d;*/ }
 
 .slds-theme--info a:not(.slds-button--neutral) {
-  color: #f6f1e9; /*white;*/
+  color: #46423B; /*white;*/
   text-decoration: underline; }
 
 .slds-theme--info a:not(.slds-button--neutral):link, .slds-theme--info a:not(.slds-button--neutral):visited {
-  color: #f6f1e9; /*white;*/ }
+  color: #46423B; /*white;*/ }
 
 .slds-theme--info a:not(.slds-button--neutral):hover, .slds-theme--info a:not(.slds-button--neutral):focus {
   color: rgba(70, 66, 59, 0.75); /*rgba(255, 255, 255, 0.75);*/ }
@@ -6986,22 +6986,38 @@ a.slds-button--inverse:focus {
   color: rgba(70, 66, 59, 0.15); /*rgba(255, 255, 255, 0.15);*/ }
 
 .slds-theme--warning {
-  background-color: #ffb75d;
-  color: #16325c; }
+  background-color: #FaFD6f; /*#ffb75d;*/
+  color: #46423B; /*#16325c;*/ }
 
 .slds-theme--warning .slds-button__icon {
   fill: #54698d; }
 
+.slds-theme--warning a:not(.slds-button--neutral) {
+  color: #46423B; /*white;*/
+  text-decoration: underline; }
+
+.slds-theme--warning a:not(.slds-button--neutral):link, .slds-theme--warning a:not(.slds-button--neutral):visited {
+  color: #46423B; /*white;*/ }
+
+.slds-theme--warning a:not(.slds-button--neutral):hover, .slds-theme--warning a:not(.slds-button--neutral):focus {
+  color: rgba(70, 66, 59, 0.75); /*rgba(255, 255, 255, 0.75);*/ }
+
+.slds-theme--warning a:not(.slds-button--neutral):active {
+  color: rgba(70, 66, 59, 0.5); /*rgba(255, 255, 255, 0.5);*/ }
+
+.slds-theme--warning a:not(.slds-button--neutral)[disabled] {
+  color: rgba(70, 66, 59, 0.15); /*rgba(255, 255, 255, 0.15);*/ }
+
 .slds-theme--error {
-  color: #f6f1e9; /*white;*/
-  background-color: #c23934; }
+  color: #46423B; /*white;*/
+  background-color: #e7948b; /*#c23934;*/ }
 
 .slds-theme--error a:not(.slds-button--neutral) {
-  color: #f6f1e9; /*white;*/
+  color: #46423B; /*white;*/
   text-decoration: underline; }
 
 .slds-theme--error a:not(.slds-button--neutral):link, .slds-theme--error a:not(.slds-button--neutral):visited {
-  color: #f6f1e9; /*white;*/ }
+  color: #46423B; /*white;*/ }
 
 .slds-theme--error a:not(.slds-button--neutral):hover, .slds-theme--error a:not(.slds-button--neutral):focus {
   color: rgba(70, 66, 59, 0.75); /*rgba(255, 255, 255, 0.75);*/ }
@@ -7013,24 +7029,24 @@ a.slds-button--inverse:focus {
   color: rgba(70, 66, 59, 0.15); /*rgba(255, 255, 255, 0.15);*/ }
 
 .slds-theme--offline {
-  color: white;
-  background-color: #444; }
+  color: #46423B; /*white;*/
+  background-color: #DDD9D1; /*#444;*/ }
 
 .slds-theme--offline a:not(.slds-button--neutral) {
-  color: white;
+  color: #46423B; /*white;*/
   text-decoration: underline; }
 
 .slds-theme--offline a:not(.slds-button--neutral):link, .slds-theme--offline a:not(.slds-button--neutral):visited {
-  color: white; }
+  color: #46423B; /*white;*/ }
 
 .slds-theme--offline a:not(.slds-button--neutral):hover, .slds-theme--offline a:not(.slds-button--neutral):focus {
-  color: rgba(255, 255, 255, 0.75); }
+  color: rgba(70, 66, 59, 0.75); /*rgba(255, 255, 255, 0.75);*/ }
 
 .slds-theme--offline a:not(.slds-button--neutral):active {
-  color: rgba(255, 255, 255, 0.5); }
+  color: rgba(70, 66, 59, 0.5); /*rgba(255, 255, 255, 0.5);*/ }
 
 .slds-theme--offline a:not(.slds-button--neutral)[disabled] {
-  color: rgba(246, 241, 233, 0.15); /*rgba(255, 255, 255, 0.15);*/ }
+  color: rgba(70, 66, 59, 0.15); /*rgba(255, 255, 255, 0.15);*/ }
 
 .slds-theme--alert-texture {
   background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.035) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.035) 50%, rgba(0, 0, 0, 0.035) 75%, transparent 75%, transparent);
