@@ -1,0 +1,59 @@
+/* garrett-zaino color palette */
+//PRIMARY - Antique Beige
+$color-pri-01: #f6f1e9;
+$color-pri-02: #f1e9dd;
+$color-pri-03: #e8dcca;
+$color-pri-04: #958d82;
+$color-pri-05: #5f5a53;
+
+//SECONDARY - Prarie Sage
+$color-sec-01: #e0e0d1;
+$color-sec-02: #d8d8c6;
+$color-sec-03: #c2c2a6;
+$color-sec-04: #7c7c6a;
+$color-sec-05: #4f4f44;
+
+//TERTIARY - Olivewood
+$color-ter-01: #ddd9d1;
+$color-ter-02: #cac3b8;
+$color-ter-03: #aca190;
+$color-ter-04: #6e675c;
+$color-ter-05: #46423b;
+
+/* garrett-zaino accents */
+//SUCCESS
+$color-suc-01: #e5e8ca;
+$color-suc-02: #bcc189;
+
+//WARNING
+$color-war-01: #fbfcbd;
+$color-war-02: #fafd6f;
+
+//ERROR
+$color-err-01: #e8cdca;
+$color-err-02: #e7948b;
+
+//INFORMATION
+$color-inf-01: #cae5e8;
+$color-inf-02: #8ad7e1;
+
+//ATTENTION
+$color-att-01: #ffdca6;
+$color-att-02: #f2b350;
+
+/* Mapping to SLDS variable */
+
+$color-background: $color-pri-02;
+$color-background-alt: #ffffff;
+$color-background-alt-2: $color-pri-03;
+$color-background-alt-inverse: $color-ter-05;
+$color-background-row-hover: $color-pri-02;
+$color-background-row-active: $color-pri-03;
+$color-background-row-selected: $color-sec-03;
+$color-background-row-new: $color-att-01;
+$color-background-inverse: $color-ter-05;
+$color-background-anchor: $color-pri-02;
+$color-background-browser: $color-pri-04;
+
+@import
+	'../../../node_modules/\@salesforce-ux/design-system/scss/index.scss';

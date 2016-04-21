@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/zainogj/garrett-zaino#readme",
   "dependencies": {
+    "@salesforce-ux/design-system": "^0.12.2",
     "express": "^4.13.4"
   }
 }
