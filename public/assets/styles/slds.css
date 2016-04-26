@@ -233,26 +233,26 @@ th {
 *, *:before, *:after {
   box-sizing: border-box; }
 *::-webkit-input-placeholder {
-  color: #54698d;
+  color: #d8d8c6;
   font-weight: 400;
   font-size: 0.875rem; }
 *:-moz-placeholder {
-  color: #54698d;
+  color: #d8d8c6;
   font-weight: 400;
   font-size: 0.875rem; }
 *::-moz-placeholder {
-  color: #54698d;
+  color: #d8d8c6;
   font-weight: 400;
   font-size: 0.875rem; }
 *:-ms-input-placeholder {
-  color: #54698d;
+  color: #d8d8c6;
   font-weight: 400;
   font-size: 0.875rem; }
 
 html {
   font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
   background: #ffffff;
-  color: #16325c;
+  color: #6e675c;
   -webkit-tap-highlight-color: transparent; }
 
 body {
@@ -260,7 +260,7 @@ body {
   background: transparent; }
 
 ::selection {
-  background: #faffbd;
+  background: #ffdca6;
   text-shadow: none; }
 
 h1,
@@ -303,18 +303,18 @@ ul {
   list-style: none; }
 
 a {
-  color: #0070d2;
+  color: #7c7c6a;
   text-decoration: none;
   transition: color .1s linear; }
   a:hover, a:focus {
     text-decoration: underline;
-    color: #005fb2; }
+    color: #c2c2a6; }
   a:focus {
     outline: thin dotted;
-    outline: 5px auto #1589ee;
+    outline: 5px auto #c2c2a6;
     outline-offset: -2px; }
   a:active {
-    color: #00396b; }
+    color: #958d82; }
 
 b,
 strong,
@@ -322,7 +322,7 @@ dfn {
   font-weight: 700; }
 
 mark {
-  background-color: #faffbd; }
+  background-color: #ffdca6; }
 
 abbr[title] {
   cursor: help; }
@@ -341,7 +341,7 @@ td {
 hr {
   display: block;
   margin: 2rem 0;
-  border-top: 1px solid #d8dde6;
+  border-top: 1px solid #f1e9dd;
   height: 1px;
   clear: both; }
 
@@ -364,7 +364,7 @@ img {
   position: relative; }
   .slds-media--timeline:before {
     content: '';
-    background: #d8dde6;
+    background: #f1e9dd;
     height: 100%;
     width: 2px;
     position: absolute;
@@ -385,7 +385,7 @@ img {
 .slds-timeline__date {
   margin-bottom: 0.25rem;
   font-size: 0.75rem;
-  color: #54698d; }
+  color: #958d82; }
 .slds-timeline__media--call:before {
   background: #48c3cc; }
 .slds-timeline__media--email:before {
@@ -430,9 +430,9 @@ img {
       margin-left: 0; }
     .slds-button-group .slds-button:first-child {
       border-radius: 0.25rem 0 0 0.25rem;
-      border-left: 1px solid #d8dde6; }
+      border-left: 1px solid #e8dcca; }
     .slds-button-group .slds-button:first-child:not(.slds-button--last .slds-button) {
-      border-left: 1px solid #d8dde6; }
+      border-left: 1px solid #e8dcca; }
     .slds-button-group .slds-button:last-child {
       border-radius: 0 0.25rem 0.25rem 0; }
     .slds-button-group .slds-button:focus {
@@ -453,15 +453,15 @@ img {
 
 /* Lightning Design System 0.12.2 */
 .slds-button-group .slds-button:first-child.slds-button--inverse[disabled] {
-  border-left-color: rgba(255, 255, 255, 0.15); }
+  border-left-color: #ffffff; }
 .slds-button-group .slds-button--inverse:first-child[disabled] + .slds-button--inverse {
-  border-left: 1px solid #d8dde6; }
+  border-left: 1px solid #e8dcca; }
 
 /* Lightning Design System 0.12.2 */
 .slds-button-group .slds-button--icon-border.slds-is-selected + .slds-button--icon-border.slds-is-selected {
-  border-left: 1px solid #d8dde6; }
+  border-left: 1px solid #e8dcca; }
 .slds-button-group .slds-button--icon-border.slds-is-selected:first-child {
-  border-left: 1px solid #0070d2; }
+  border-left: 1px solid #c2c2a6; }
 .slds-button-group .slds-button--icon-more:hover,
 .slds-button-group .slds-button--icon-more:focus {
   border-left-width: 0; }
@@ -475,7 +475,7 @@ img {
     background-clip: padding-box;
   border: none;
     border-radius: 0.25rem;
-  color: #0070d2;
+  color: #7c7c6a;
   font-size: inherit;
   line-height: 2.125rem;
   text-decoration: none;
@@ -486,14 +486,14 @@ img {
   .slds-button:hover, .slds-button:focus, .slds-button:active, .slds-button:visited {
     text-decoration: none; }
   .slds-button:hover, .slds-button:focus {
-    color: #005fb2; }
+    color: #c2c2a6; }
   .slds-button:focus {
     outline: 0;
     box-shadow: 0 0 3px #0070D2; }
   .slds-button:active {
-    color: #00396b; }
+    color: #958d82; }
   .slds-button[disabled] {
-    color: #d8dde6; }
+    color: #cac3b8; }
   .slds-button:hover .slds-button__icon, .slds-button:focus .slds-button__icon, .slds-button:active .slds-button__icon, .slds-button[disabled] .slds-button__icon {
     fill: currentColor; }
   .slds-button + .slds-button-group {
@@ -521,24 +521,24 @@ a.slds-button {
   padding-right: 1rem;
   text-align: center;
   vertical-align: middle;
-  border: 1px solid #d8dde6;
-  background-color: white; }
+  border: 1px solid #e8dcca;
+  background-color: #ffffff; }
   .slds-button--neutral:hover, .slds-button--neutral:focus {
-    background-color: #f4f6f9; }
+    background-color: #f1e9dd; }
   .slds-button--neutral:active {
-    background-color: #eef1f6; }
+    background-color: #f6f1e9; }
   .slds-button--neutral[disabled] {
-    background-color: white;
+    background-color: #ffffff;
     cursor: default; }
 
 .slds-button--hint {
   color: #9faab5; }
   .slds-button--hint:hover, .slds-button--hint:focus, .slds-button--hint:active {
-    color: #0070d2; }
+    color: #c2c2a6; }
 
 /* A parent class must be put on anything that contains a .slds-button--hint so that when the parent is hovered, the child reacts */
 .slds-hint-parent:hover .slds-button--hint, .slds-hint-parent:focus .slds-button--hint {
-  color: #0070d2; }
+  color: #c2c2a6; }
 
 /* Lightning Design System 0.12.2 */
 .slds-button__icon--left {
@@ -553,20 +553,20 @@ a.slds-button {
   padding-right: 1rem;
   text-align: center;
   vertical-align: middle;
-  background-color: #0070d2;
-  border: 1px solid #0070d2;
-  color: white; }
+  background-color: #7c7c6a;
+  border: 1px solid #c2c2a6;
+  color: #ffffff; }
   .slds-button--brand:link, .slds-button--brand:visited, .slds-button--brand:active {
-    color: white; }
+    color: #ffffff; }
   .slds-button--brand:hover, .slds-button--brand:focus {
-    background-color: #005fb2;
-    color: white; }
+    background-color: #d8d8c6;
+    color: #ffffff; }
   .slds-button--brand:active {
-    background-color: #00396b; }
+    background-color: #4f4f44; }
   .slds-button--brand[disabled] {
-    background: #e0e5ee;
-    border-color: transparent;
-    color: white; }
+    background: #ddd9d1;
+    border-color: #ffffff;
+    color: #ffffff; }
 
 /* Lightning Design System 0.12.2 */
 .slds-button--destructive {
@@ -576,19 +576,19 @@ a.slds-button {
   vertical-align: middle;
   background-color: #c23934;
   border: 1px solid #c23934;
-  color: white; }
+  color: #ffffff; }
   .slds-button--destructive:link, .slds-button--destructive:visited, .slds-button--destructive:active {
-    color: white; }
+    color: #ffffff; }
   .slds-button--destructive:hover, .slds-button--destructive:focus {
     background-color: #A61A14;
-    color: white; }
+    color: #ffffff; }
   .slds-button--destructive:active {
     background-color: #870500;
     border-color: #870500; }
   .slds-button--destructive[disabled] {
-    background: #e0e5ee;
-    border-color: transparent;
-    color: white; }
+    background: #ddd9d1;
+    border-color: #ffffff;
+    color: #ffffff; }
 
 /* Lightning Design System 0.12.2 */
 /*
@@ -606,27 +606,27 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   padding-right: 1rem;
   text-align: center;
   vertical-align: middle;
-  border: 1px solid #d8dde6;
+  border: 1px solid #e8dcca;
   background-color: transparent; }
   .slds-button--inverse:hover, .slds-button--inverse:focus {
-    background-color: #f4f6f9; }
+    background-color: #f1e9dd; }
   .slds-button--inverse:active {
-    background-color: #eef1f6; }
+    background-color: #f6f1e9; }
   .slds-button--inverse[disabled] {
     background-color: transparent;
-    border-color: rgba(255, 255, 255, 0.15);
-    color: rgba(255, 255, 255, 0.15); }
+    border-color: #ffffff;
+    color: #6e675c; }
 
 .slds-button--inverse, .slds-button--inverse:link, .slds-button--inverse:visited,
 .slds-button-group .slds-button--icon-inverse,
 .slds-button-group .slds-button--icon-inverse:link,
 .slds-button-group .slds-button--icon-inverse:visited {
-  color: #e0e5ee; }
+  color: #cac3b8; }
 .slds-button--inverse:hover, .slds-button--inverse:focus, .slds-button--inverse:active,
 .slds-button-group .slds-button--icon-inverse:hover,
 .slds-button-group .slds-button--icon-inverse:focus,
 .slds-button-group .slds-button--icon-inverse:active {
-  color: #0070d2; }
+  color: #c2c2a6; }
 .slds-button--inverse:focus,
 .slds-button-group .slds-button--icon-inverse:focus {
   outline: none;
@@ -641,10 +641,10 @@ a.slds-button--inverse:focus {
   border-color: transparent;
   background-color: transparent; }
   .slds-button--neutral.slds-is-selected:hover:not([disabled]), .slds-button--neutral.slds-is-selected:focus:not([disabled]) {
-    border: 1px solid #d8dde6;
-    background-color: #f4f6f9; }
+    border: 1px solid #e8dcca;
+    background-color: #f1e9dd; }
   .slds-button--neutral.slds-is-selected:active {
-    background-color: #eef1f6; }
+    background-color: #f6f1e9; }
 
 .slds-button__icon--stateful {
   width: 0.75rem;
@@ -678,7 +678,7 @@ a.slds-button--inverse:focus {
 .slds-button--icon-bare,
 .slds-button--icon-more {
   vertical-align: middle;
-  color: #54698d; }
+  color: #958d82; }
 
 .slds-button--icon-bare {
   line-height: 1; }
@@ -688,14 +688,14 @@ a.slds-button--inverse:focus {
 
 .slds-button--icon-border-filled,
 .slds-button--icon-border {
-  border: 1px solid #d8dde6; }
+  border: 1px solid #e8dcca; }
   .slds-button--icon-border-filled:hover, .slds-button--icon-border-filled:focus,
   .slds-button--icon-border:hover,
   .slds-button--icon-border:focus {
-    background-color: #f4f6f9; }
+    background-color: #f1e9dd; }
   .slds-button--icon-border-filled:active,
   .slds-button--icon-border:active {
-    background-color: #eef1f6; }
+    background-color: #f6f1e9; }
 
 .slds-button--icon-container,
 .slds-button--icon-border,
@@ -715,10 +715,10 @@ a.slds-button--inverse:focus {
   line-height: 1; }
 
 .slds-button--icon-border-filled {
-  background-color: white; }
+  background-color: #ffffff; }
   .slds-button--icon-border-filled[disabled] {
-    border: 1px solid #d8dde6;
-    background-color: white; }
+    border: 1px solid #e8dcca;
+    background-color: #ffffff; }
 
 .slds-button__icon {
   width: 1rem;
@@ -741,26 +741,26 @@ a.slds-button--inverse:focus {
 
 /* Lightning Design System 0.12.2 */
 .slds-button__icon--hint {
-  fill: #9faab5; }
+  fill: #c2c2a6; }
 
 .slds-hint-parent:hover .slds-button__icon--hint, .slds-hint-parent:focus .slds-button__icon--hint {
-  fill: #54698d; }
+  fill: #958d82; }
 
 /* Lightning Design System 0.12.2 */
 .slds-button--icon-more {
   padding: 0 0.5rem;
   vertical-align: middle;
-  border: 1px solid #d8dde6; }
+  border: 1px solid #e8dcca; }
   .slds-button--icon-more:hover, .slds-button--icon-more:focus {
-    border: 1px solid #d8dde6; }
+    border: 1px solid #e8dcca; }
     .slds-button--icon-more:hover:hover, .slds-button--icon-more:hover:focus, .slds-button--icon-more:focus:hover, .slds-button--icon-more:focus:focus {
-      background-color: #f4f6f9; }
+      background-color: #f1e9dd; }
     .slds-button--icon-more:hover:active, .slds-button--icon-more:focus:active {
-      background-color: #eef1f6; }
+      background-color: #f6f1e9; }
     .slds-button--icon-more:hover .slds-button__icon, .slds-button--icon-more:focus .slds-button__icon {
-      fill: #0070d2; }
+      fill: #c2c2a6; }
   .slds-button--icon-more:active .slds-button__icon {
-    fill: #00396b; }
+    fill: #5f5a53; }
   .slds-button--icon-more[disabled] {
     cursor: default; }
     .slds-button--icon-more[disabled] .slds-button__icon {
@@ -768,30 +768,30 @@ a.slds-button--inverse:focus {
 
 /* Lightning Design System 0.12.2 */
 .slds-button--icon-border.slds-is-selected {
-  background-color: #0070d2;
-  border: 1px solid #0070d2;
-  color: white; }
+  background-color: #7c7c6a;
+  border: 1px solid #c2c2a6;
+  color: #ffffff; }
   .slds-button--icon-border.slds-is-selected:link, .slds-button--icon-border.slds-is-selected:visited, .slds-button--icon-border.slds-is-selected:active {
-    color: white; }
+    color: #ffffff; }
   .slds-button--icon-border.slds-is-selected:hover, .slds-button--icon-border.slds-is-selected:focus {
-    background-color: #005fb2;
-    color: white; }
+    background-color: #d8d8c6;
+    color: #ffffff; }
   .slds-button--icon-border.slds-is-selected:active {
-    background-color: #00396b; }
+    background-color: #4f4f44; }
   .slds-button--icon-border.slds-is-selected .slds-button__icon {
-    fill: white; }
+    fill: #ffffff; }
   .slds-button--icon-border.slds-is-selected:hover .slds-button__icon, .slds-button--icon-border.slds-is-selected:focus .slds-button__icon {
-    fill: white; }
+    fill: #ffffff; }
 
 /* Lightning Design System 0.12.2 */
 .slds-button--icon-inverse {
-  color: white; }
+  color: #ffffff; }
   .slds-button--icon-inverse:hover, .slds-button--icon-inverse:focus {
-    color: rgba(255, 255, 255, 0.75); }
+    color: #f6f1e9; }
   .slds-button--icon-inverse:active {
-    color: rgba(255, 255, 255, 0.5); }
+    color: #f6f1e9; }
   .slds-button--icon-inverse[disabled] {
-    color: rgba(255, 255, 255, 0.15); }
+    color: #958d82; }
 
 /* Lightning Design System 0.12.2 */
 /*
@@ -887,7 +887,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   width: 2rem;
   height: 2rem;
   border-radius: 0.25rem;
-  fill: white; }
+  fill: #ffffff; }
 
 .slds-icon-action-approval {
   background-color: #00c6b7; }
@@ -1941,13 +1941,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 /* Lightning Design System 0.12.2 */
 .slds-icon-text-default {
-  fill: #54698d; }
+  fill: #958d82; }
 
 .slds-icon-text-warning {
-  fill: #ffb75d; }
+  fill: #fafd6f; }
 
 .slds-icon-text-error {
-  fill: #c23934; }
+  fill: #e7948b; }
 
 /* Lightning Design System 0.12.2 */
 .slds-icon--x-small {
@@ -1969,8 +1969,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   padding: 0;
   border-radius: 0.25rem;
   background-clip: padding-box;
-  background-color: #f1e9dd;
-  border: 1px solid #d8dde6; }
+  background-color: #e8dcca;
+  border: 1px solid #f1e9dd; }
   .slds-card + .slds-card {
     margin-top: 1rem; }
   .slds-card__header {
@@ -1995,7 +1995,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 .slds-form-element__label {
   display: inline-block;
-  color: #54698d;
+  color: #d8d8c6;
   font-size: 0.75rem;
   line-height: 1.5;
   margin-right: 0.75rem;
@@ -2010,9 +2010,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 /* Lightning Design System 0.12.2 */
 .slds-input {
-  background-color: white;
-  color: #16325c;
-  border: 1px solid #d8dde6;
+  background-color: #ffffff;
+  color: #6e675c;
+  border: 1px solid #f1e9dd;
     border-radius: 0.25rem;
   width: 100%;
   transition: border 0.1s linear, background-color 0.1s linear;
@@ -2023,12 +2023,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   /* For IE */ }
   .slds-input:focus, .slds-input:active {
     outline: 0;
-    border-color: #1589ee;
-    background-color: white;
+    border-color: #d8d8c6;
+    background-color: #ffffff;
     box-shadow: 0 0 3px #0070D2; }
   .slds-input[disabled], .slds-input.slds-is-disabled {
-    background-color: #e0e5ee;
-    border-color: #a8b7c7;
+    background-color: #cac3b8;
+    border-color: #cac3b8;
     cursor: not-allowed;
     user-select: none; }
     .slds-input[disabled]:focus, .slds-input[disabled]:active, .slds-input.slds-is-disabled:focus, .slds-input.slds-is-disabled:active {
@@ -2041,26 +2041,26 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   padding-left: 0.5rem;
   padding-right: 0.5rem; }
   .slds-input--small::-webkit-input-placeholder {
-    color: #54698d;
+    color: #d8d8c6;
     font-weight: 400;
     font-size: 0.875rem; }
   .slds-input--small:-moz-placeholder {
-    color: #54698d;
+    color: #d8d8c6;
     font-weight: 400;
     font-size: 0.875rem; }
   .slds-input--small::-moz-placeholder {
-    color: #54698d;
+    color: #d8d8c6;
     font-weight: 400;
     font-size: 0.875rem; }
   .slds-input--small:-ms-input-placeholder {
-    color: #54698d;
+    color: #d8d8c6;
     font-weight: 400;
     font-size: 0.875rem; }
 
 .slds-input--bare {
   background-color: transparent;
   border: none;
-  color: #16325c; }
+  color: #6e675c; }
   .slds-input--bare:focus, .slds-input--bare:active {
     outline: 0; }
 
@@ -2072,7 +2072,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     position: absolute;
     top: 50%;
     margin-top: -0.5rem;
-    fill: #54698d; }
+    fill: #958d82; }
   .slds-input-has-icon--left .slds-input__icon {
     left: 0.75rem; }
   .slds-input-has-icon--left .slds-input,
@@ -2086,9 +2086,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 /* Lightning Design System 0.12.2 */
 .slds-textarea {
-  background-color: white;
-  color: #16325c;
-  border: 1px solid #d8dde6;
+  background-color: #ffffff;
+  color: #6e675c;
+  border: 1px solid #f1e9dd;
     border-radius: 0.25rem;
   width: 100%;
   transition: border 0.1s linear, background-color 0.1s linear;
@@ -2096,12 +2096,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   padding: 0.5rem 0.75rem; }
   .slds-textarea:focus, .slds-textarea:active {
     outline: 0;
-    border-color: #1589ee;
-    background-color: white;
+    border-color: #d8d8c6;
+    background-color: #ffffff;
     box-shadow: 0 0 3px #0070D2; }
   .slds-textarea[disabled], .slds-textarea.slds-is-disabled {
-    background-color: #e0e5ee;
-    border-color: #a8b7c7;
+    background-color: #cac3b8;
+    border-color: #cac3b8;
     cursor: not-allowed;
     user-select: none; }
     .slds-textarea[disabled]:focus, .slds-textarea[disabled]:active, .slds-textarea.slds-is-disabled:focus, .slds-textarea.slds-is-disabled:active {
@@ -2116,9 +2116,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     display: inline-block;
     position: relative;
     vertical-align: middle;
-    border: 1px solid #d8dde6;
+    border: 1px solid #f1e9dd;
     border-radius: 50%;
-    background: white;
+    background: #ffffff;
     transition: border 0.1s linear, background-color 0.1s linear; }
   .slds-radio .slds-form-element__label {
     display: inline;
@@ -2134,7 +2134,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     padding: 0;
     position: absolute; }
     .slds-radio [type="radio"]:checked > .slds-radio--faux, .slds-radio [type="radio"]:checked ~ .slds-radio--faux {
-      background: white; }
+      background: #ffffff; }
       .slds-radio [type="radio"]:checked > .slds-radio--faux:after, .slds-radio [type="radio"]:checked ~ .slds-radio--faux:after {
         width: 0.5rem;
         height: 0.5rem;
@@ -2144,30 +2144,30 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
         left: 50%;
         transform: translate3d(-50%, -50%, 0);
         border-radius: 50%;
-        background: #1589ee; }
+        background: #c2c2a6; }
     .slds-radio [type="radio"]:focus > .slds-radio--faux, .slds-radio [type="radio"]:focus ~ .slds-radio--faux {
-      border-color: #1589ee;
+      border-color: #d8d8c6;
       box-shadow: 0 0 3px #0070D2; }
     .slds-radio [type="radio"][disabled] {
       cursor: not-allowed;
       user-select: none; }
       .slds-radio [type="radio"][disabled] ~ .slds-radio--faux {
-        background-color: #e0e5ee;
-        border-color: #a8b7c7; }
+        background-color: #cac3b8;
+        border-color: #cac3b8; }
 
 .slds-has-error .slds-radio [type="radio"] > .slds-radio--faux,
 .slds-has-error .slds-radio [type="radio"] ~ .slds-radio--faux {
-  border-color: #c23934;
+  border-color: #e7948b;
   border-width: 2px; }
 .slds-has-error .slds-radio [type="radio"]:checked > .slds-radio--faux, .slds-has-error .slds-radio [type="radio"]:checked ~ .slds-radio--faux {
-  background: white; }
+  background: #ffffff; }
 .slds-has-error .slds-radio [type="radio"]:checked > .slds-radio--faux:after, .slds-has-error .slds-radio [type="radio"]:checked ~ .slds-radio--faux:after {
-  background: #d4504c; }
+  background: #e7948b; }
 
 .slds-is-required > .slds-radio [type="radio"] > .slds-form-element__label:before,
 .slds-is-required > .slds-radio [type="radio"] ~ .slds-form-element__label:before {
   content: '*';
-  color: #c23934;
+  color: #e7948b;
   position: absolute;
   left: -0.5rem; }
 
@@ -2187,9 +2187,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     display: inline-block;
     position: relative;
     vertical-align: middle;
-    border: 1px solid #d8dde6;
+    border: 1px solid #f1e9dd;
     border-radius: 0.125rem;
-    background: white;
+    background: #ffffff;
     transition: border 0.1s linear, background-color 0.1s linear; }
   .slds-checkbox .slds-form-element__label {
     display: inline;
@@ -2213,38 +2213,38 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       top: 50%;
       left: 50%;
       transform: translate3d(-50%, -50%, 0) rotate(-45deg);
-      border-bottom: 2px solid #1589ee;
-      border-left: 2px solid #1589ee; }
+      border-bottom: 2px solid #c2c2a6;
+      border-left: 2px solid #c2c2a6; }
     .slds-checkbox [type="checkbox"]:focus > .slds-checkbox--faux,
     .slds-checkbox [type="checkbox"]:focus ~ .slds-checkbox--faux {
       content: '';
-      border-color: #1589ee;
+      border-color: #d8d8c6;
       box-shadow: 0 0 3px #0070D2; }
     .slds-checkbox [type="checkbox"]:focus:checked > .slds-checkbox--faux, .slds-checkbox [type="checkbox"]:focus:checked ~ .slds-checkbox--faux {
-      border-color: #1589ee;
-      background-color: white; }
+      border-color: #d8d8c6;
+      background-color: #ffffff; }
     .slds-checkbox [type="checkbox"][disabled] > .slds-checkbox--faux,
     .slds-checkbox [type="checkbox"][disabled] ~ .slds-checkbox--faux {
-      background-color: #e0e5ee;
-      border-color: #a8b7c7; }
+      background-color: #cac3b8;
+      border-color: #cac3b8; }
     .slds-checkbox [type="checkbox"][disabled] > .slds-checkbox--faux:after,
     .slds-checkbox [type="checkbox"][disabled] ~ .slds-checkbox--faux:after {
-      border-color: white; }
+      border-color: #ffffff; }
 
 .slds-has-error .slds-checkbox [type="checkbox"] > .slds-checkbox--faux,
 .slds-has-error .slds-checkbox [type="checkbox"] ~ .slds-checkbox--faux {
-  border-color: #c23934;
+  border-color: #e7948b;
   border-width: 2px; }
 .slds-has-error .slds-checkbox [type="checkbox"]:checked > .slds-checkbox--faux, .slds-has-error .slds-checkbox [type="checkbox"]:checked ~ .slds-checkbox--faux {
-  border-color: #c23934;
-  background-color: white; }
+  border-color: #e7948b;
+  background-color: #ffffff; }
 .slds-has-error .slds-checkbox [type="checkbox"]:checked > .slds-checkbox--faux:after, .slds-has-error .slds-checkbox [type="checkbox"]:checked ~ .slds-checkbox--faux:after {
-  border-color: #d4504c; }
+  border-color: #e7948b; }
 
 .slds-is-required > .slds-checkbox [type="checkbox"] > .slds-form-element__label:before,
 .slds-is-required > .slds-checkbox [type="checkbox"] ~ .slds-form-element__label:before {
   content: '*';
-  color: #c23934;
+  color: #e7948b;
   position: absolute;
   left: -0.5rem; }
 
@@ -2254,21 +2254,21 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 /* Lightning Design System 0.12.2 */
 .slds-select {
-  background-color: white;
-  color: #16325c;
-  border: 1px solid #d8dde6;
+  background-color: #ffffff;
+  color: #6e675c;
+  border: 1px solid #f1e9dd;
     border-radius: 0.25rem;
   width: 100%;
   transition: border 0.1s linear, background-color 0.1s linear;
   height: 2.125rem; }
   .slds-select:focus, .slds-select:active {
     outline: 0;
-    border-color: #1589ee;
-    background-color: white;
+    border-color: #d8d8c6;
+    background-color: #ffffff;
     box-shadow: 0 0 3px #0070D2; }
   .slds-select[disabled], .slds-select.slds-is-disabled {
-    background-color: #e0e5ee;
-    border-color: #a8b7c7;
+    background-color: #cac3b8;
+    border-color: #cac3b8;
     cursor: not-allowed;
     user-select: none; }
     .slds-select[disabled]:focus, .slds-select[disabled]:active, .slds-select.slds-is-disabled:focus, .slds-select.slds-is-disabled:active {
@@ -2310,12 +2310,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     margin-top: 1.5rem; }
 
 .slds-picklist__options {
-  border: 1px solid #d8dde6;
+  border: 1px solid #f1e9dd;
     border-radius: 0.25rem;
   padding: 0.25rem 0;
   width: 15rem;
   height: 15rem;
-  background-color: white; }
+  background-color: #ffffff; }
   .slds-picklist__options--multi {
     overflow: auto; }
 
@@ -2424,35 +2424,35 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 /* Lightning Design System 0.12.2 */
 .slds-is-required > .slds-form-element__label:before {
   content: '*';
-  color: #c23934;
+  color: #e7948b;
   position: absolute;
   left: -0.5rem; }
 
 .slds-has-error .slds-input {
-  background-color: white;
-  border-color: #c23934;
-  box-shadow: #c23934 0 0 0 1px inset;
+  background-color: #ffffff;
+  border-color: #e7948b;
+  box-shadow: #e7948b 0 0 0 1px inset;
   background-clip: padding-box; }
   .slds-has-error .slds-input:focus, .slds-has-error .slds-input:active {
-    box-shadow: #c23934 0 0 0 1px inset, 0 0 3px #0070D2; }
+    box-shadow: #e7948b 0 0 0 1px inset, 0 0 3px #0070D2; }
 .slds-has-error .slds-textarea {
-  background-color: white;
-  border-color: #c23934;
-  box-shadow: #c23934 0 0 0 1px inset;
+  background-color: #ffffff;
+  border-color: #e7948b;
+  box-shadow: #e7948b 0 0 0 1px inset;
   background-clip: padding-box; }
   .slds-has-error .slds-textarea:focus, .slds-has-error .slds-textarea:active {
-    box-shadow: #c23934 0 0 0 1px inset, 0 0 3px #0070D2; }
+    box-shadow: #e7948b 0 0 0 1px inset, 0 0 3px #0070D2; }
 .slds-has-error .slds-select {
-  background-color: white;
-  border-color: #c23934;
-  box-shadow: #c23934 0 0 0 1px inset;
+  background-color: #ffffff;
+  border-color: #e7948b;
+  box-shadow: #e7948b 0 0 0 1px inset;
   background-clip: padding-box; }
   .slds-has-error .slds-select:focus, .slds-has-error .slds-select:active {
-    box-shadow: #c23934 0 0 0 1px inset, 0 0 3px #0070D2; }
+    box-shadow: #e7948b 0 0 0 1px inset, 0 0 3px #0070D2; }
 .slds-has-error .slds-form-element__help {
-  color: #c23934; }
+  color: #e7948b; }
 .slds-has-error .slds-input__icon {
-  fill: #c23934; }
+  fill: #e7948b; }
 
 /* Lightning Design System 0.12.2 */
 .slds-modal--form .slds-modal__container,
@@ -2523,13 +2523,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 @media (min-width: 64em) {
   .slds-col-rule--left {
-    border-left: 1px solid #f4f6f9; }
+    border-left: 1px solid #cac3b8; }
   .slds-col-rule--right {
-    border-right: 1px solid #f4f6f9; }
+    border-right: 1px solid #cac3b8; }
   .slds-col-rule--top {
-    border-top: 1px solid #f4f6f9; }
+    border-top: 1px solid #cac3b8; }
   .slds-col-rule--bottom {
-    border-bottom: 1px solid #f4f6f9; } }
+    border-bottom: 1px solid #cac3b8; } }
 
 .slds-wrap {
   flex-wrap: wrap;
@@ -2653,7 +2653,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   .slds-tooltip__body {
     padding: 0.5rem 0.75rem;
     font-size: 0.75rem;
-    color: white; }
+    color: #ffffff; }
 
 /* Lightning Design System 0.12.2 */
 .slds-popover {
@@ -2664,7 +2664,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   z-index: 6000;
   background-color: #ffffff;
   box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.16);
-  border: 1px solid #d8dde6; }
+  border: 1px solid #f1e9dd; }
   .slds-popover__body {
     position: relative;
     padding: 0.5rem 0.75rem; }
@@ -2675,7 +2675,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   border: none; }
   .slds-popover--tooltip .slds-popover__body {
     font-size: 0.75rem;
-    color: white; }
+    color: #ffffff; }
 
 .slds-rise-from-ground {
   visibility: visible;
@@ -2709,16 +2709,16 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 /* Lightning Design System 0.12.2 */
 .slds-popover--panel .slds-popover__header {
-  background: #f1e9dd;
+  background: #e8dcca;
   padding: 1rem;
   border-radius: 0.25rem 0.25rem 0 0; }
 .slds-popover--panel .slds-popover__body {
   padding: 0; }
 .slds-popover--panel .slds-popover__body-list {
   padding: 1rem;
-  border-top: 1px solid #d8dde6; }
+  border-top: 1px solid #f1e9dd; }
 .slds-popover--panel.slds-nubbin--left-top:before, .slds-popover--panel.slds-nubbin--left-top:after, .slds-popover--panel.slds-nubbin--right-top:before, .slds-popover--panel.slds-nubbin--right-top:after, .slds-popover--panel.slds-nubbin--top-left:before, .slds-popover--panel.slds-nubbin--top-left:after, .slds-popover--panel.slds-nubbin--top-right:before, .slds-popover--panel.slds-nubbin--top-right:after {
-  background: #f1e9dd; }
+  background: #e8dcca; }
 
 /* Lightning Design System 0.12.2 */
 .slds-nubbin--top:before {
@@ -3050,7 +3050,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   min-width: 6rem;
   max-width: 20rem;
   margin-top: 0.125rem;
-  border: 1px solid #d8dde6;
+  border: 1px solid #f1e9dd;
   border-radius: 0.25rem;
   padding: 0.25rem 0;
   background: #ffffff;
@@ -3127,7 +3127,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       display: flex;
       justify-content: space-between;
       padding: 0.5rem 0.75rem;
-      color: #16325c;
+      color: #6e675c;
       white-space: nowrap;
       cursor: pointer; }
       .slds-dropdown__item > a:hover, .slds-dropdown__item > a:focus {
@@ -3138,7 +3138,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
         text-decoration: none;
         background-color: #e8dcca; }
       .slds-dropdown__item > a[aria-disabled="true"] {
-        color: #d8dde6;
+        color: #cac3b8;
         cursor: default; }
         .slds-dropdown__item > a[aria-disabled="true"]:hover {
           background-color: transparent; }
@@ -3146,7 +3146,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       opacity: 0;
       transition: opacity 0.05s ease; }
     .slds-dropdown__item.slds-is-selected .slds-icon--selected {
-      fill: #0070d2;
+      fill: #c2c2a6;
       opacity: 1; }
   .slds-dropdown .slds-has-icon {
     position: relative; }
@@ -3163,7 +3163,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       position: absolute;
       top: 50%;
       margin-top: -0.5rem;
-      fill: #54698d; }
+      fill: #958d82; }
       .slds-dropdown .slds-has-icon .slds-icon--left {
         left: 0.75rem; }
       .slds-dropdown .slds-has-icon .slds-icon--right {
@@ -3212,7 +3212,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 .slds-picklist__label {
   padding-right: 2rem;
   width: 15rem;
-  color: #16325c;
+  color: #6e675c;
   text-align: left; }
   .slds-picklist__label .slds-icon {
     width: 0.75rem;
@@ -3221,10 +3221,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     right: 1rem;
     top: 50%;
     margin-top: -0.375rem;
-    fill: #54698d; }
+    fill: #958d82; }
   .slds-picklist__label[aria-disabled="true"] {
-    border-color: #a8b7c7;
-    background-color: #e0e5ee;
+    border-color: #cac3b8;
+    background-color: #cac3b8;
     cursor: not-allowed;
     user-select: none; }
   .slds-picklist__label .slds-truncate {
@@ -3232,7 +3232,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 /* Lightning Design System 0.12.2 */
 .slds-dropdown--actions a {
-  color: #0070d2; }
+  color: #c2c2a6; }
 
 /* Lightning Design System 0.12.2 */
 .slds-action-overflow--touch {
@@ -3260,9 +3260,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   .slds-action-overflow--touch__footer {
     position: relative;
     flex-shrink: 0;
-    border-top: 1px solid #d8dde6;
+    border-top: 1px solid #f1e9dd;
     padding: 0.75rem 1rem;
-    background-color: #f1e9dd;
+    background-color: #e8dcca;
     box-shadow: 0 -2px 4px #F4F6F9; }
 
 /* Lightning Design System 0.12.2 */
@@ -3276,7 +3276,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   .slds-datepicker th {
     padding: 0.5rem;
     font-weight: 400;
-    color: #54698d; }
+    color: #d8d8c6; }
   .slds-datepicker td {
     padding: 0.25rem;
     text-align: center;
@@ -3293,14 +3293,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       background: #f1e9dd;
       cursor: pointer; }
     .slds-datepicker td.slds-is-selected:not(.slds-disabled-text) > .slds-day {
-      background: #005fb2;
-      color: white; }
+      background: #d8d8c6;
+      color: #ffffff; }
     .slds-datepicker td.slds-is-selected-multi > .slds-day {
       overflow: visible; }
     .slds-datepicker td.slds-is-selected-multi + .slds-is-selected-multi > .slds-day:before {
       content: '';
       position: absolute;
-      background: #005fb2;
+      background: #d8d8c6;
       top: 0;
       left: -50%;
       height: 100%;
@@ -3311,7 +3311,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   .slds-datepicker .slds-has-multi-row-selection .slds-is-selected-multi:last-child > .slds-day:after {
     content: '';
     position: absolute;
-    background: #005fb2;
+    background: #d8d8c6;
     top: 0;
     left: -50%;
     height: 100%;
@@ -3331,7 +3331,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     padding: 0 0.25rem 0 0; }
 
 .slds-disabled-text {
-  color: #d8dde6; }
+  color: #cac3b8; }
 
 /* Lightning Design System 0.12.2 */
 /* Lightning Design System 0.12.2 */
@@ -3381,9 +3381,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 /* Lightning Design System 0.12.2 */
 .slds-publisher--comment {
-  background-color: white;
-  color: #16325c;
-  border: 1px solid #d8dde6;
+  background-color: #ffffff;
+  color: #6e675c;
+  border: 1px solid #f1e9dd;
     border-radius: 0.25rem;
   width: 100%;
   position: relative;
@@ -3397,8 +3397,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       opacity: 1; }
   .slds-publisher--comment.slds-has-focus {
     outline: 0;
-    border-color: #1589ee;
-    background-color: white;
+    border-color: #d8d8c6;
+    background-color: #ffffff;
     box-shadow: 0 0 3px #0070D2; }
   .slds-publisher--comment .slds-publisher__actions {
     opacity: 0;
@@ -3415,7 +3415,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   .slds-feed__item {
     padding: 1rem 0; }
     .slds-feed__item + .slds-feed__item {
-      border-top: 1px solid #d8dde6; }
+      border-top: 1px solid #f1e9dd; }
 
 /* Lightning Design System 0.12.2 */
 .slds-comment__content {
@@ -3456,7 +3456,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     padding-bottom: 1rem; }
     .slds-comment__replies .slds-comment:before {
       content: '';
-      background: #d8dde6;
+      background: #f1e9dd;
       height: 100%;
       width: 1px;
       position: absolute;
@@ -3516,7 +3516,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     position: relative;
     border-top-right-radius: 0.25rem;
     border-top-left-radius: 0.25rem;
-    border-bottom: 2px solid #d8dde6;
+    border-bottom: 2px solid #f1e9dd;
     padding: 1.5rem 1rem;
     text-align: center; }
     .slds-modal__header + .slds-modal__menu {
@@ -3530,13 +3530,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     position: relative;
     border-radius: 0.25rem;
     padding: 1rem;
-    background-color: #f1e9dd; }
+    background-color: #e8dcca; }
   .slds-modal__footer {
-    border-top: 2px solid #d8dde6;
+    border-top: 2px solid #f1e9dd;
     border-bottom-right-radius: 0.25rem;
     border-bottom-left-radius: 0.25rem;
     padding: 0.75rem 1rem;
-    background-color: #f1e9dd;
+    background-color: #e8dcca;
     text-align: right;
     box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.16); }
   .slds-modal__close {
@@ -3557,7 +3557,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(126, 140, 153, 0.8);
+  background: #cac3b8;
   z-index: 9000; }
   .slds-modal-backdrop--open {
     visibility: visible;
@@ -3575,7 +3575,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(126, 140, 153, 0.8);
+  background: #cac3b8;
   z-index: 9000; }
   .slds-backdrop--open {
     visibility: visible;
@@ -3626,17 +3626,17 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 /* Lightning Design System 0.12.2 */
 /* Lightning Design System 0.12.2 */
 .slds-pill {
-  background-color: white;
+  background-color: #ffffff;
   display: inline-block;
   padding: 0.25rem;
-  border: 1px solid #d8dde6;
+  border: 1px solid #f1e9dd;
   border-radius: 0.25rem;
   vertical-align: middle;
   line-height: 1.5; }
   .slds-pill + .slds-pill {
     margin-left: 0.25rem; }
   .slds-pill:hover {
-    background-color: #f4f6f9; }
+    background-color: #f1e9dd; }
   .slds-pill:focus {
     outline: 0;
     box-shadow: 0 0 3px #0070D2; }
@@ -3647,12 +3647,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       background-color: transparent; }
   .slds-pill-container {
     padding: 1px;
-    border: 1px solid #d8dde6;
+    border: 1px solid #f1e9dd;
     border-radius: 0.25rem;
     min-height: calc(2.125rem + 2px); }
   .slds-pill__container {
     padding: 1px;
-    border: 1px solid #d8dde6;
+    border: 1px solid #f1e9dd;
     border-radius: 0.25rem;
     min-height: calc(2.125rem + 2px); }
   .slds-pill__label {
@@ -3695,7 +3695,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 .slds-tile__title, .slds-tile__detail {
   position: relative; }
 .slds-tile__meta {
-  color: #16325c; }
+  color: #6e675c; }
 
 /* Lightning Design System 0.12.2 */
 /* Lightning Design System 0.12.2 */
@@ -3715,7 +3715,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 /* Lightning Design System 0.12.2 */
 /* Lightning Design System 0.12.2 */
 .slds-tile__meta {
-  color: #16325c; }
+  color: #6e675c; }
 
 /* Lightning Design System 0.12.2 */
 .slds-tree-container {
@@ -3729,7 +3729,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   line-height: 2.125rem;
   padding-left: 1rem; }
   .slds-tree__item a {
-    color: #16325c; }
+    color: #6e675c; }
   .slds-tree__item a:hover,
   .slds-tree__item a:focus {
     outline: 0;
@@ -3746,7 +3746,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   padding-left: 4rem; }
 .slds-tree .slds-is-selected {
   background: #c2c2a6;
-  box-shadow: #0070d2 4px 0 0 inset; }
+  box-shadow: #7c7c6a 4px 0 0 inset; }
 .slds-tree .slds-is-hovered,
 .slds-tree .slds-is-focused {
   background: #f1e9dd;
@@ -3765,7 +3765,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   .slds-tabs--default__nav {
     display: flex;
     align-items: flex-start;
-    border-bottom: 1px solid #d8dde6; }
+    border-bottom: 1px solid #f1e9dd; }
   .slds-tabs--default .slds-tabs__item {
     overflow: hidden; }
     @media (min-width: 48em) {
@@ -3783,7 +3783,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       line-height: 3rem;
       border-bottom: 2px solid transparent;
       padding: 0 0.5rem;
-      color: #54698d; }
+      color: #d8d8c6; }
       .slds-tabs--default .slds-tabs__item > a:focus {
         outline: 0; }
       @media (min-width: 48em) {
@@ -3791,16 +3791,16 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
           padding: 0 1rem; } }
       .slds-tabs--default .slds-tabs__item > a:hover, .slds-tabs--default .slds-tabs__item > a:focus {
         text-decoration: none;
-        border-color: #0070d2;
+        border-color: #c2c2a6;
         color: #16325c; }
       .slds-tabs--default .slds-tabs__item > a:focus {
-        color: #0070d2;
-        box-shadow: #0070d2 0 -1px 0 inset; }
+        color: #c2c2a6;
+        box-shadow: #c2c2a6 0 -1px 0 inset; }
     .slds-tabs--default .slds-tabs__item.slds-active a {
-      border-color: #0070d2;
+      border-color: #c2c2a6;
       color: #16325c; }
       .slds-tabs--default .slds-tabs__item.slds-active a:focus {
-        color: #0070d2; }
+        color: #c2c2a6; }
   .slds-tabs--default > .slds-tabs__content {
     position: relative;
     padding: 1rem 0; }
@@ -3811,10 +3811,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     .slds-tabs--default__item + .slds-tabs--default__item {
       margin-left: 1.5rem; } }
   .slds-tabs--default__item.slds-active .slds-tabs--default__link {
-    border-color: #0070d2;
+    border-color: #c2c2a6;
     color: #16325c; }
     .slds-tabs--default__item.slds-active .slds-tabs--default__link:focus {
-      color: #0070d2; }
+      color: #c2c2a6; }
 
 .slds-tabs--default__content {
   position: relative;
@@ -3832,7 +3832,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   line-height: 3rem;
   border-bottom: 2px solid transparent;
   padding: 0 0.5rem;
-  color: #54698d; }
+  color: #d8d8c6; }
   .slds-tabs--default__link:focus {
     outline: 0; }
   @media (min-width: 48em) {
@@ -3840,11 +3840,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       padding: 0 1rem; } }
   .slds-tabs--default__link:hover, .slds-tabs--default__link:focus {
     text-decoration: none;
-    border-color: #0070d2;
+    border-color: #c2c2a6;
     color: #16325c; }
   .slds-tabs--default__link:focus {
-    color: #0070d2;
-    box-shadow: #0070d2 0 -1px 0 inset; }
+    color: #c2c2a6;
+    box-shadow: #c2c2a6 0 -1px 0 inset; }
 
 /* Lightning Design System 0.12.2 */
 .slds-tabs--default .slds-tabs__item--overflow {
@@ -3861,8 +3861,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   .slds-tabs--scoped__nav {
     display: flex;
     align-items: flex-start;
-    background-color: #f1e9dd;
-    border: 1px solid #d8dde6;
+    background-color: #e8dcca;
+    border: 1px solid #e8dcca;
     border-radius: 0.25rem 0.25rem 0 0; }
   .slds-tabs--scoped .slds-tabs__item {
     overflow: hidden;
@@ -3884,7 +3884,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       height: 3rem;
       line-height: 3rem;
       padding: 0 1.5rem;
-      color: #54698d;
+      color: #958d82;
       background-clip: padding-box;
       border-left: 1px solid transparent;
       border-right: 1px solid transparent; }
@@ -3892,17 +3892,17 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
         outline: 0; }
       .slds-tabs--scoped .slds-tabs__item > a:hover, .slds-tabs--scoped .slds-tabs__item > a:focus {
         text-decoration: none;
-        color: #005fb2;
-        border-color: #d8dde6; }
+        color: #c2c2a6;
+        border-color: #f1e9dd; }
     .slds-tabs--scoped .slds-tabs__item .slds-active > a {
       background-color: #ffffff;
-      color: #0070d2;
-      border-color: #d8dde6; }
+      color: #7c7c6a;
+      border-color: #f1e9dd; }
       .slds-tabs--scoped .slds-tabs__item .slds-active > a:focus {
         text-decoration: underline; }
   .slds-tabs--scoped > .slds-tabs__content {
     background-color: #ffffff;
-    border: 1px solid #d8dde6;
+    border: 1px solid #e8dcca;
     border-top: none;
     border-radius: 0 0 0.25rem 0.25rem;
     padding: 1rem; }
@@ -3919,7 +3919,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 .slds-tabs--scoped__content {
   background-color: #ffffff;
-  border: 1px solid #d8dde6;
+  border: 1px solid #e8dcca;
   border-top: none;
   border-radius: 0 0 0.25rem 0.25rem;
   padding: 1rem; }
@@ -3935,7 +3935,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   height: 3rem;
   line-height: 3rem;
   padding: 0 1.5rem;
-  color: #54698d;
+  color: #958d82;
   background-clip: padding-box;
   border-left: 1px solid transparent;
   border-right: 1px solid transparent; }
@@ -3943,13 +3943,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     outline: 0; }
   .slds-tabs--scoped__link:hover, .slds-tabs--scoped__link:focus {
     text-decoration: none;
-    color: #005fb2;
-    border-color: #d8dde6; }
+    color: #c2c2a6;
+    border-color: #f1e9dd; }
 
 .slds-active .slds-tabs--scoped__link {
   background-color: #ffffff;
-  color: #0070d2;
-  border-color: #d8dde6; }
+  color: #7c7c6a;
+  border-color: #f1e9dd; }
   .slds-active .slds-tabs--scoped__link:focus {
     text-decoration: underline; }
 
@@ -3961,13 +3961,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     display: flex;
     align-items: flex-start; }
   .slds-tabs--path .slds-is-complete {
-    background-color: #4bca81; }
+    background-color: #bcc189; }
     .slds-tabs--path .slds-is-complete .slds-tabs--path__stage {
       transform: rotateX(0deg); }
     .slds-tabs--path .slds-is-complete .slds-tabs--path__title {
       transform: rotateX(180deg); }
     .slds-tabs--path .slds-is-complete:hover {
-      background-color: #04844b; }
+      background-color: #e5e8ca; }
       .slds-tabs--path .slds-is-complete:hover .slds-tabs--path__stage {
         transform: rotateX(-180deg); }
       .slds-tabs--path .slds-is-complete:hover .slds-tabs--path__title {
@@ -3981,30 +3981,30 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     .slds-tabs--path .slds-is-current:hover + .slds-is-incomplete:before {
       background-color: #005fb2; }
   .slds-tabs--path .slds-is-incomplete {
-    background-color: #e0e5ee; }
+    background-color: #ddd9d1; }
     .slds-tabs--path .slds-is-incomplete .slds-tabs--path__link {
-      color: #16325c; }
+      color: #6e675c; }
   .slds-tabs--path .slds-is-current .slds-tabs--path__link,
   .slds-tabs--path .slds-is-complete .slds-tabs--path__link {
-    color: white; }
+    color: #ffffff; }
   .slds-tabs--path .slds-is-active {
     background-color: #46423b; }
     .slds-tabs--path .slds-is-active .slds-tabs--path__link {
-      color: white; }
+      color: #ffffff; }
     .slds-tabs--path .slds-is-active .slds-tabs--path__stage {
       transform: rotateX(-180deg); }
     .slds-tabs--path .slds-is-active .slds-tabs--path__title {
       transform: rotateX(0deg); }
     .slds-tabs--path .slds-is-active:hover {
-      background-color: #46423b; }
+      background-color: #6e675c; }
       .slds-tabs--path .slds-is-active:hover + .slds-tabs--path__item:before {
-        background-color: #46423b; }
+        background-color: #6e675c; }
     .slds-tabs--path .slds-is-active + .slds-tabs--path__item:before {
       background-color: #46423b; }
     .slds-tabs--path .slds-is-active ~ .slds-is-current {
       background-color: #ffffff; }
       .slds-tabs--path .slds-is-active ~ .slds-is-current .slds-tabs--path__link {
-        color: #16325c; }
+        color: #6e675c; }
       .slds-tabs--path .slds-is-active ~ .slds-is-current + .slds-tabs--path__item:before {
         background-color: #ffffff; }
 
@@ -4042,13 +4042,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     display: none; }
   .slds-tabs--path__item + .slds-is-complete:before,
   .slds-tabs--path__item + .slds-is-current:before {
-    background-color: #4bca81; }
+    background-color: #bcc189; }
   .slds-tabs--path__item:hover + .slds-is-complete:before {
-    background-color: #04844b; }
+    background-color: #e5e8ca; }
   .slds-tabs--path__item:hover + .slds-is-current:before {
-    background-color: #04844b; }
+    background-color: #e5e8ca; }
   .slds-tabs--path__item + .slds-is-incomplete:before {
-    background-color: #e0e5ee; }
+    background-color: #ddd9d1; }
   .slds-tabs--path__item:hover + .slds-is-incomplete:before {
     background-color: #d8dde6; }
 
@@ -4096,21 +4096,21 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   text-align: center; }
 
 .slds-notify {
-  color: white;
+  color: #ffffff;
   position: relative;
-  background: #54698d;
+  background: #958d82;
   font-weight: 300; }
   .slds-notify a:not(.slds-button--neutral) {
-    color: white;
+    color: #ffffff;
     text-decoration: underline; }
     .slds-notify a:not(.slds-button--neutral):link, .slds-notify a:not(.slds-button--neutral):visited {
-      color: white; }
+      color: #ffffff; }
     .slds-notify a:not(.slds-button--neutral):hover, .slds-notify a:not(.slds-button--neutral):focus {
-      color: rgba(255, 255, 255, 0.75); }
+      color: #f6f1e9; }
     .slds-notify a:not(.slds-button--neutral):active {
-      color: rgba(255, 255, 255, 0.5); }
+      color: #f6f1e9; }
     .slds-notify a:not(.slds-button--neutral)[disabled] {
-      color: rgba(255, 255, 255, 0.15); }
+      color: #958d82; }
   .slds-notify--toast {
     border-radius: 0.25rem;
     margin: 0.5rem;
@@ -4157,7 +4157,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     overflow-y: auto; }
   .slds-lookup__menu {
     background: #ffffff;
-    border: 1px solid #d8dde6;
+    border: 1px solid #f1e9dd;
     border-radius: 0.25rem;
     z-index: 7000;
     position: absolute;
@@ -4169,7 +4169,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   .slds-lookup__item > button {
     display: block;
     padding: 0.5rem;
-    color: #16325c;
+    color: #6e675c;
     text-align: left;
     width: 100%;
     line-height: 1.5;
@@ -4181,7 +4181,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     .slds-lookup__item > button:focus {
       outline: 0;
       background-color: #f1e9dd;
-      color: #16325c;
+      color: #6e675c;
       text-decoration: none; }
     .slds-lookup__item > a .slds-icon,
     .slds-lookup__item > span .slds-icon,
@@ -4204,7 +4204,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 /* Lightning Design System 0.12.2 */
 .slds-lookup[data-select="multi"] .slds-pill__container {
   border: transparent;
-    border-bottom: 1px solid #d8dde6;
+    border-bottom: 1px solid #f1e9dd;
     border-radius: 0; }
 
 /* Lightning Design System 0.12.2 */
@@ -4228,9 +4228,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 .slds-lookup[data-scope="multi"] .slds-input {
   padding-left: 12rem; }
 .slds-lookup[data-scope="multi"] .slds-form-element__control {
-  background-color: white;
-  color: #16325c;
-  border: 1px solid #d8dde6;
+  background-color: #ffffff;
+  color: #6e675c;
+  border: 1px solid #f1e9dd;
     border-radius: 0.25rem;
   width: 100%;
   transition: border 0.1s linear, background-color 0.1s linear;
@@ -4239,12 +4239,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   display: flex; }
   .slds-lookup[data-scope="multi"] .slds-form-element__control:focus, .slds-lookup[data-scope="multi"] .slds-form-element__control:active {
     outline: 0;
-    border-color: #1589ee;
-    background-color: white;
+    border-color: #d8d8c6;
+    background-color: #ffffff;
     box-shadow: 0 0 3px #0070D2; }
   .slds-lookup[data-scope="multi"] .slds-form-element__control[disabled], .slds-lookup[data-scope="multi"] .slds-form-element__control.slds-is-disabled {
-    background-color: #e0e5ee;
-    border-color: #a8b7c7;
+    background-color: #cac3b8;
+    border-color: #cac3b8;
     cursor: not-allowed;
     user-select: none; }
     .slds-lookup[data-scope="multi"] .slds-form-element__control[disabled]:focus, .slds-lookup[data-scope="multi"] .slds-form-element__control[disabled]:active, .slds-lookup[data-scope="multi"] .slds-form-element__control.slds-is-disabled:focus, .slds-lookup[data-scope="multi"] .slds-form-element__control.slds-is-disabled:active {
@@ -4267,9 +4267,9 @@ Neither the name of salesforce.com, inc. nor the names of its contributors may b
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 .slds-modal .slds-lookup tr:first-child > th {
-  border-top: 2px solid #d8dde6; }
+  border-top: 2px solid #f1e9dd; }
 .slds-modal .slds-lookup tr:last-child > th {
-  border-bottom: 2px solid #d8dde6; }
+  border-bottom: 2px solid #f1e9dd; }
 
 /* Lightning Design System 0.12.2 */
 .slds-media {
@@ -4345,14 +4345,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 /* Lightning Design System 0.12.2 */
 .slds-badge {
-  background-color: #e0e5ee;
+  background-color: #ddd9d1;
   padding: 0.25rem 0.5rem;
   border-radius: 15rem;
   font-size: 0.625rem;
   line-height: 1.25;
   text-transform: uppercase;
   letter-spacing: .0625em;
-  color: #16325c;
+  color: #6e675c;
   vertical-align: middle;
   white-space: nowrap; }
   .slds-badge + .slds-badge {
@@ -4390,7 +4390,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     background-color: #c2c2a6; }
   .slds-table td.slds-is-selected,
   .slds-table td.slds-is-selected:hover {
-    box-shadow: #0070d2 0 0 0 2px inset; }
+    box-shadow: #cac3b8 0 0 0 2px inset; }
   .slds-table .slds-truncate {
     min-width: 3.25rem;
     max-width: 15rem; }
@@ -4400,20 +4400,20 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     width: 1%; }
 
 .slds-table--bordered {
-  border-top: 1px solid #d8dde6;
-  border-bottom: 1px solid #d8dde6; }
+  border-top: 1px solid #f1e9dd;
+  border-bottom: 1px solid #f1e9dd; }
   .slds-table--bordered thead > tr + tr > th {
-    border-top: 1px solid #d8dde6; }
+    border-top: 1px solid #f1e9dd; }
   .slds-table--bordered td,
   .slds-table--bordered th {
-    border-top: 1px solid #d8dde6; }
+    border-top: 1px solid #f1e9dd; }
   .slds-table--bordered:not(.slds-no-row-hover) tbody tr:hover > td, .slds-table--bordered:not(.slds-no-row-hover) tbody tr:hover > th {
-    box-shadow: #d8dde6 0 -1px 0 inset; }
+    box-shadow: #f1e9dd 0 -1px 0 inset; }
   .slds-table--bordered:not(.slds-no-row-hover) .slds-is-selected:hover > td, .slds-table--bordered:not(.slds-no-row-hover) .slds-is-selected:hover > th {
-    border-color: #0070d2;
-    box-shadow: #0070d2 0 -2px 0 inset; }
+    border-color: #cac3b8;
+    box-shadow: #cac3b8 0 -2px 0 inset; }
     .slds-table--bordered:not(.slds-no-row-hover) .slds-is-selected:hover > td.slds-is-selected, .slds-table--bordered:not(.slds-no-row-hover) .slds-is-selected:hover > th.slds-is-selected {
-      box-shadow: #0070d2 0 -1px 0 2px inset; }
+      box-shadow: #cac3b8 0 -1px 0 2px inset; }
 
 .slds-table--striped tr:nth-of-type(even) > td {
   background-color: #f1e9dd; }
@@ -4424,10 +4424,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     visibility: hidden;
     margin-left: 0.5rem; }
   .slds-is-sortable .slds-button__icon {
-    fill: #0070d2; }
+    fill: #7c7c6a; }
   .slds-is-sortable:hover {
     background-color: #f1e9dd;
-    color: #0070d2; }
+    color: #7c7c6a; }
     .slds-is-sortable:hover .slds-button {
       visibility: visible; }
 
@@ -4445,7 +4445,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       border-top: none; }
     .slds-max-medium-table--stacked tr {
       display: block;
-      border-top: 2px solid #d8dde6; }
+      border-top: 2px solid #f1e9dd; }
     .slds-max-medium-table--stacked td {
       display: block;
       padding: 0.75rem;
@@ -4458,7 +4458,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
         display: block;
         padding-bottom: 0.25rem;
         content: attr(data-label);
-        color: #54698d;
+        color: #d8d8c6;
         text-transform: uppercase;
         font-family: "Salesforce Sans", Arial, sans-serif;
         font-size: 0.75rem;
@@ -4493,7 +4493,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       border-top: none; }
     .slds-max-medium-table--stacked-horizontal tr {
       display: block;
-      border-top: 2px solid #d8dde6; }
+      border-top: 2px solid #f1e9dd; }
     .slds-max-medium-table--stacked-horizontal td {
       display: block;
       padding: 0.75rem;
@@ -4506,7 +4506,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
         display: block;
         padding-bottom: 0.25rem;
         content: attr(data-label);
-        color: #54698d;
+        color: #d8d8c6;
         text-transform: uppercase;
         font-family: "Salesforce Sans", Arial, sans-serif;
         font-size: 0.75rem;
@@ -4971,50 +4971,50 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 .slds-has-divider {
   margin-top: 0.5rem;
   padding-top: 0.5rem;
-  border-top: 1px solid #d8dde6; }
+  border-top: 1px solid #f1e9dd; }
   .slds-has-divider--top {
-    border-top: 1px solid #d8dde6; }
+    border-top: 1px solid #f1e9dd; }
     .slds-has-divider--top-space {
-      border-top: 1px solid #d8dde6;
+      border-top: 1px solid #f1e9dd;
       margin-top: 0.5rem;
       padding-top: 0.5rem; }
   .slds-has-divider--bottom {
-    border-bottom: 1px solid #d8dde6; }
+    border-bottom: 1px solid #f1e9dd; }
     .slds-has-divider--bottom-space {
-      border-bottom: 1px solid #d8dde6;
+      border-bottom: 1px solid #f1e9dd;
       margin-bottom: 0.5rem;
       padding-bottom: 0.5rem; }
 
 /* Lightning Design System 0.12.2 */
 .slds-list--vertical.slds-has-dividers > .slds-list__item {
   padding: 0.5rem;
-  border-bottom: 1px solid #d8dde6; }
+  border-bottom: 1px solid #f1e9dd; }
   .slds-list--vertical.slds-has-dividers > .slds-list__item:hover {
     background-color: #f1e9dd;
-    border-color: #d8dde6;
+    border-color: #f1e9dd;
     cursor: pointer; }
   .slds-list--vertical.slds-has-dividers > .slds-list__item:active {
     background-color: #e8dcca;
-    box-shadow: #d8dde6 0 -1px 0 inset; }
+    box-shadow: #f1e9dd 0 -1px 0 inset; }
   .slds-list--vertical.slds-has-dividers > .slds-list__item.slds-is-selected {
-    box-shadow: #0070d2 0 0 0 1px inset;
+    box-shadow: #cac3b8 0 0 0 1px inset;
     background-color: #c2c2a6; }
     .slds-list--vertical.slds-has-dividers > .slds-list__item.slds-is-selected:hover, .slds-list--vertical.slds-has-dividers > .slds-list__item.slds-is-selected:focus {
-      box-shadow: #1589ee 0 -2px 0 inset, #1589ee 0 0 0 1px inset; }
+      box-shadow: #ddd9d1 0 -2px 0 inset, #ddd9d1 0 0 0 1px inset; }
 
 .slds-has-dividers--top > .slds-list__item {
-  border-top: 1px solid #d8dde6; }
+  border-top: 1px solid #f1e9dd; }
 .slds-has-dividers--top-space > .slds-list__item {
-  border-top: 1px solid #d8dde6;
+  border-top: 1px solid #f1e9dd;
   padding: 0.75rem; }
   @media (min-width: 30em) {
     .slds-has-dividers--top-space > .slds-list__item {
       padding: 0.5rem; } }
 
 .slds-has-dividers--bottom > .slds-list__item {
-  border-bottom: 1px solid #d8dde6; }
+  border-bottom: 1px solid #f1e9dd; }
 .slds-has-dividers--bottom-space > .slds-list__item {
-  border-bottom: 1px solid #d8dde6;
+  border-bottom: 1px solid #f1e9dd;
   padding: 0.75rem; }
   @media (min-width: 30em) {
     .slds-has-dividers--bottom-space > .slds-list__item {
@@ -5022,16 +5022,16 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 .slds-has-list-interactions > .slds-list__item:hover {
   background-color: #f1e9dd;
-  border-color: #d8dde6;
+  border-color: #f1e9dd;
   cursor: pointer; }
 .slds-has-list-interactions > .slds-list__item:active {
   background-color: #e8dcca;
-  box-shadow: #d8dde6 0 -1px 0 inset; }
+  box-shadow: #f1e9dd 0 -1px 0 inset; }
 .slds-has-list-interactions > .slds-list__item.slds-is-selected {
-  box-shadow: #0070d2 0 0 0 1px inset;
+  box-shadow: #cac3b8 0 0 0 1px inset;
   background-color: #c2c2a6; }
   .slds-has-list-interactions > .slds-list__item.slds-is-selected:hover, .slds-has-list-interactions > .slds-list__item.slds-is-selected:focus {
-    box-shadow: #1589ee 0 -2px 0 inset, #1589ee 0 0 0 1px inset; }
+    box-shadow: #ddd9d1 0 -2px 0 inset, #ddd9d1 0 0 0 1px inset; }
 
 /* Lightning Design System 0.12.2 */
 .slds-list--horizontal.slds-has-dividers > .slds-list__item {
@@ -5045,7 +5045,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     border-radius: 50%;
-    background-color: #54698d; }
+    background-color: #958d82; }
   .slds-list--horizontal.slds-has-dividers > .slds-list__item:last-child {
     margin-right: 0;
     padding-right: 0; }
@@ -5063,7 +5063,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     border-radius: 50%;
-    background-color: #54698d; }
+    background-color: #958d82; }
   .slds-has-dividers--left > .slds-list__item:first-child {
     margin-right: 0;
     padding-right: 0; }
@@ -5081,7 +5081,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     border-radius: 50%;
-    background-color: #54698d; }
+    background-color: #958d82; }
   .slds-has-dividers--right > .slds-list__item:last-child {
     margin-right: 0;
     padding-right: 0; }
@@ -5090,13 +5090,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 /* Lightning Design System 0.12.2 */
 .slds-has-cards .slds-list__item {
-  border: 1px solid #d8dde6;
+  border: 1px solid #f1e9dd;
   border-radius: 0.25rem;
   background-clip: padding-box; }
   .slds-has-cards .slds-list__item + .slds-list__item {
     margin-top: 0.5rem; }
 .slds-has-cards--space .slds-list__item {
-  border: 1px solid #d8dde6;
+  border: 1px solid #f1e9dd;
   border-radius: 0.25rem;
   background-clip: padding-box;
   padding: 0.75rem; }
@@ -5143,15 +5143,15 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 /* Lightning Design System 0.12.2 */
 .slds-page-header {
   padding: 1.5rem 1.5rem 0.75rem;
-  border-bottom: 1px solid #d8dde6;
-  background: #f1e9dd; }
+  border-bottom: 1px solid #f1e9dd;
+  background: #e8dcca; }
 
 /* Lightning Design System 0.12.2 */
 .slds-box {
   padding: 1rem;
   border-radius: 0.25rem;
   background-clip: padding-box;
-  border: 1px solid #d8dde6; }
+  border: 1px solid #f1e9dd; }
   .slds-box--x-small {
     padding: 0.5rem; }
   .slds-box--small {
@@ -5161,114 +5161,114 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 .slds-theme--default {
   background-color: #ffffff; }
 .slds-theme--shade {
-  background-color: #f1e9dd; }
+  background-color: #e8dcca; }
 .slds-theme--inverse {
   background-color: #46423b;
-  color: white;
+  color: #ffffff;
   border-color: #46423b; }
   .slds-theme--inverse a:not(.slds-button--neutral) {
-    color: white;
+    color: #ffffff;
     text-decoration: underline; }
     .slds-theme--inverse a:not(.slds-button--neutral):link, .slds-theme--inverse a:not(.slds-button--neutral):visited {
-      color: white; }
+      color: #ffffff; }
     .slds-theme--inverse a:not(.slds-button--neutral):hover, .slds-theme--inverse a:not(.slds-button--neutral):focus {
-      color: rgba(255, 255, 255, 0.75); }
+      color: #f6f1e9; }
     .slds-theme--inverse a:not(.slds-button--neutral):active {
-      color: rgba(255, 255, 255, 0.5); }
+      color: #f6f1e9; }
     .slds-theme--inverse a:not(.slds-button--neutral)[disabled] {
-      color: rgba(255, 255, 255, 0.15); }
+      color: #958d82; }
 .slds-theme--alt-inverse {
-  background-color: #46423b;
-  color: white;
-  border-color: #46423b; }
+  background-color: #6e675c;
+  color: #ffffff;
+  border-color: #6e675c; }
   .slds-theme--alt-inverse a:not(.slds-button--neutral) {
-    color: white;
+    color: #ffffff;
     text-decoration: underline; }
     .slds-theme--alt-inverse a:not(.slds-button--neutral):link, .slds-theme--alt-inverse a:not(.slds-button--neutral):visited {
-      color: white; }
+      color: #ffffff; }
     .slds-theme--alt-inverse a:not(.slds-button--neutral):hover, .slds-theme--alt-inverse a:not(.slds-button--neutral):focus {
-      color: rgba(255, 255, 255, 0.75); }
+      color: #f6f1e9; }
     .slds-theme--alt-inverse a:not(.slds-button--neutral):active {
-      color: rgba(255, 255, 255, 0.5); }
+      color: #f6f1e9; }
     .slds-theme--alt-inverse a:not(.slds-button--neutral)[disabled] {
-      color: rgba(255, 255, 255, 0.15); }
+      color: #958d82; }
 .slds-theme--success {
-  color: white;
-  background-color: #04844b; }
+  color: #ffffff;
+  background-color: #e5e8ca; }
   .slds-theme--success a:not(.slds-button--neutral) {
-    color: white;
+    color: #ffffff;
     text-decoration: underline; }
     .slds-theme--success a:not(.slds-button--neutral):link, .slds-theme--success a:not(.slds-button--neutral):visited {
-      color: white; }
+      color: #ffffff; }
     .slds-theme--success a:not(.slds-button--neutral):hover, .slds-theme--success a:not(.slds-button--neutral):focus {
-      color: rgba(255, 255, 255, 0.75); }
+      color: #f6f1e9; }
     .slds-theme--success a:not(.slds-button--neutral):active {
-      color: rgba(255, 255, 255, 0.5); }
+      color: #f6f1e9; }
     .slds-theme--success a:not(.slds-button--neutral)[disabled] {
-      color: rgba(255, 255, 255, 0.15); }
+      color: #958d82; }
 .slds-theme--info {
-  color: white;
-  background-color: #54698d; }
+  color: #ffffff;
+  background-color: #958d82; }
   .slds-theme--info a:not(.slds-button--neutral) {
-    color: white;
+    color: #ffffff;
     text-decoration: underline; }
     .slds-theme--info a:not(.slds-button--neutral):link, .slds-theme--info a:not(.slds-button--neutral):visited {
-      color: white; }
+      color: #ffffff; }
     .slds-theme--info a:not(.slds-button--neutral):hover, .slds-theme--info a:not(.slds-button--neutral):focus {
-      color: rgba(255, 255, 255, 0.75); }
+      color: #f6f1e9; }
     .slds-theme--info a:not(.slds-button--neutral):active {
-      color: rgba(255, 255, 255, 0.5); }
+      color: #f6f1e9; }
     .slds-theme--info a:not(.slds-button--neutral)[disabled] {
-      color: rgba(255, 255, 255, 0.15); }
+      color: #958d82; }
 .slds-theme--warning {
-  background-color: #ffb75d;
-  color: #16325c; }
+  background-color: #fafd6f;
+  color: #6e675c; }
   .slds-theme--warning .slds-button__icon {
-    fill: #54698d; }
+    fill: #958d82; }
 .slds-theme--error {
-  color: white;
-  background-color: #c23934; }
+  color: #ffffff;
+  background-color: #e7948b; }
   .slds-theme--error a:not(.slds-button--neutral) {
-    color: white;
+    color: #ffffff;
     text-decoration: underline; }
     .slds-theme--error a:not(.slds-button--neutral):link, .slds-theme--error a:not(.slds-button--neutral):visited {
-      color: white; }
+      color: #ffffff; }
     .slds-theme--error a:not(.slds-button--neutral):hover, .slds-theme--error a:not(.slds-button--neutral):focus {
-      color: rgba(255, 255, 255, 0.75); }
+      color: #f6f1e9; }
     .slds-theme--error a:not(.slds-button--neutral):active {
-      color: rgba(255, 255, 255, 0.5); }
+      color: #f6f1e9; }
     .slds-theme--error a:not(.slds-button--neutral)[disabled] {
-      color: rgba(255, 255, 255, 0.15); }
+      color: #958d82; }
 .slds-theme--offline {
-  color: white;
+  color: #ffffff;
   background-color: #444; }
   .slds-theme--offline a:not(.slds-button--neutral) {
-    color: white;
+    color: #ffffff;
     text-decoration: underline; }
     .slds-theme--offline a:not(.slds-button--neutral):link, .slds-theme--offline a:not(.slds-button--neutral):visited {
-      color: white; }
+      color: #ffffff; }
     .slds-theme--offline a:not(.slds-button--neutral):hover, .slds-theme--offline a:not(.slds-button--neutral):focus {
-      color: rgba(255, 255, 255, 0.75); }
+      color: #f6f1e9; }
     .slds-theme--offline a:not(.slds-button--neutral):active {
-      color: rgba(255, 255, 255, 0.5); }
+      color: #f6f1e9; }
     .slds-theme--offline a:not(.slds-button--neutral)[disabled] {
-      color: rgba(255, 255, 255, 0.15); }
+      color: #958d82; }
 .slds-theme--alert-texture {
   background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.035) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.035) 50%, rgba(0, 0, 0, 0.035) 75%, transparent 75%, transparent);
   background-size: 64px 64px; }
 .slds-theme--inverse-text {
-  color: white; }
+  color: #ffffff; }
   .slds-theme--inverse-text a:not(.slds-button--neutral) {
-    color: white;
+    color: #ffffff;
     text-decoration: underline; }
     .slds-theme--inverse-text a:not(.slds-button--neutral):link, .slds-theme--inverse-text a:not(.slds-button--neutral):visited {
-      color: white; }
+      color: #ffffff; }
     .slds-theme--inverse-text a:not(.slds-button--neutral):hover, .slds-theme--inverse-text a:not(.slds-button--neutral):focus {
-      color: rgba(255, 255, 255, 0.75); }
+      color: #f6f1e9; }
     .slds-theme--inverse-text a:not(.slds-button--neutral):active {
-      color: rgba(255, 255, 255, 0.5); }
+      color: #f6f1e9; }
     .slds-theme--inverse-text a:not(.slds-button--neutral)[disabled] {
-      color: rgba(255, 255, 255, 0.15); }
+      color: #958d82; }
 .slds-theme--default .slds-text-body--small, .slds-theme--shade .slds-text-body--small, .slds-theme--inverse .slds-text-body--small, .slds-theme--alt-inverse .slds-text-body--small, .slds-theme--success .slds-text-body--small, .slds-theme--info .slds-text-body--small, .slds-theme--warning .slds-text-body--small, .slds-theme--error .slds-text-body--small, .slds-theme--offline .slds-text-body--small, .slds-theme--alert-texture .slds-text-body--small, .slds-theme--inverse-text .slds-text-body--small {
   color: inherit; }
 
@@ -5300,12 +5300,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   line-height: 1.25;
   text-transform: uppercase;
   letter-spacing: .0625em;
-  color: #54698d; }
+  color: #958d82; }
 
 /* Lightning Design System 0.12.2 */
 .slds-text-body--small {
   font-size: 0.75rem;
-  color: #54698d; }
+  color: #958d82; }
 
 /* Lightning Design System 0.12.2 */
 .slds-text-align--left {
@@ -5346,13 +5346,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   font-size: 1.125rem; }
   .slds-section-title > a {
     display: inline-block;
-    color: #16325c; }
+    color: #6e675c; }
     .slds-section-title > a:hover, .slds-section-title > a:focus {
-      color: #005fb2; }
+      color: #c2c2a6; }
     .slds-section-title > a:focus {
       box-shadow: 0 0 3px #0070D2; }
     .slds-section-title > a:active {
-      color: #16325c; }
+      color: #6e675c; }
   .slds-section-title .slds-icon {
     width: 1rem;
     height: 1rem;
@@ -5366,10 +5366,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   line-height: 1.25;
   text-transform: uppercase;
   letter-spacing: .0625em;
-  color: #54698d;
+  color: #958d82;
   margin: 0 -1rem 1rem;
   padding: 0.75rem 1rem;
-  background: #f1e9dd; }
+  background: #e8dcca; }
   .slds-section-title--divider:first-child {
     margin-top: -1rem; }
 
@@ -5378,10 +5378,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   border-bottom: 1px solid transparent;
   cursor: pointer; }
   .slds-type-focus:hover {
-    border-bottom: 1px solid #005fb2; }
+    border-bottom: 1px solid #c2c2a6; }
   .slds-type-focus:focus {
     outline: thin dotted;
-    outline: 5px auto #1589ee;
+    outline: 5px auto #c2c2a6;
     outline-offset: -2px; }
 
 /* Lightning Design System 0.12.2 */
@@ -5396,11 +5396,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     .slds-scrollable--y::-webkit-scrollbar:window-inactive {
       opacity: 0; }
   .slds-scrollable--y::-webkit-scrollbar-thumb {
-    background: #e0e5ee;
+    background: #ddd9d1;
     border-radius: 0.5rem;
-    box-shadow: #a8b7c7 0 0 0 1px inset; }
+    box-shadow: #cac3b8 0 0 0 1px inset; }
   .slds-scrollable--y::-webkit-scrollbar-track {
-    background: #a8b7c7; }
+    background: #cac3b8; }
 
 /* Lightning Design System 0.12.2 */
 .slds-scrollable--x {
@@ -5414,11 +5414,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     .slds-scrollable--x::-webkit-scrollbar:window-inactive {
       opacity: 0; }
   .slds-scrollable--x::-webkit-scrollbar-thumb {
-    background: #e0e5ee;
+    background: #ddd9d1;
     border-radius: 0.5rem;
-    box-shadow: #a8b7c7 0 0 0 1px inset; }
+    box-shadow: #cac3b8 0 0 0 1px inset; }
   .slds-scrollable--x::-webkit-scrollbar-track {
-    background: #a8b7c7; }
+    background: #cac3b8; }
 
 /* Lightning Design System 0.12.2 */
 .slds-size--1-of-1 {
