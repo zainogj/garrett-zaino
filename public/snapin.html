@@ -1,67 +1,30 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>garrett-zaino: home</title>
-		<link rel="stylesheet" type="text/css" href="/assets/styles/slds.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-	</head>
-	<body>
-		<h1>Some Header</h1>
-		<p></p>
+<style type='text/css'>
+	.embeddedServiceHelpButton .helpButton .uiButton { background-color: #8B8888; font-family: "Georgia", sans-serif; }
+	.embeddedServiceHelpButton .helpButton .uiButton:focus { outline: 1px solid #8B8888; }
+</style>
 
-		<hr/>
-		<ol>
-			<li>1</li>
-			<li>2</li>
-			<li>3</li>
-			<li>4</li>
-		</ol>
-	<style type='text/css'>
-		.embeddedServiceHelpButton .helpButton .uiButton { background-color: #005290; font-family: "Salesforce Sans", sans-serif; }
-		.embeddedServiceHelpButton .helpButton .uiButton:focus { outline: 1px solid #005290; }
-		@font-face {
-		font-family: 'Salesforce Sans';
-		src: url('https://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.woff') format('woff'),
-		url('https://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.ttf') format('truetype');
-		}
-	</style>
+<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
+<script type='text/javascript'>
+var initESW = function(gslbBaseURL) {
+embedded_svc.settings.displayHelpButton = true; //Or false
+embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
 
-	<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
-	<script type='text/javascript'>
-	var initESW = function(gslbBaseURL) {
-	embedded_svc.settings.displayHelpButton = true; //Or false
-	embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
+//embedded_svc.settings.defaultMinimizedText = '...'; //(Defaults to Chat with an Expert)
+//embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
 
-	//embedded_svc.settings.defaultMinimizedText = '...'; //(Defaults to Chat with an Expert)
-	//embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
+//embedded_svc.settings.loadingText = ''; //(Defaults to Loading)
+//embedded_svc.settings.storageDomain = 'yourdomain.com'; //(Sets the domain for your deployment so that visitors can navigate subdomains during a chat session)
 
-	//embedded_svc.settings.loadingText = ''; //(Defaults to Loading)
-	//embedded_svc.settings.storageDomain = 'yourdomain.com'; //(Sets the domain for your deployment so that visitors can navigate subdomains during a chat session)
+// Settings for Live Agent
+//embedded_svc.settings.directToButtonRouting = function(prechatFormData) {
+// Dynamically changes the button ID based on what the visitor enters in the pre-chat form.
+// Returns a valid button ID.
+//};
+//embedded_svc.settings.prepopulatedPrechatFields = {}; //Sets the auto-population of pre-chat form fields
+//embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
+//embedded_svc.settings.offlineSupportMinimizedText = '...'; //(Defaults to Contact Us)
 
-	// Settings for Live Agent
-	//embedded_svc.settings.directToButtonRouting = function(prechatFormData) {
-	// Dynamically changes the button ID based on what the visitor enters in the pre-chat form.
-	// Returns a valid button ID.
-	//};
-	//embedded_svc.settings.prepopulatedPrechatFields = {}; //Sets the auto-population of pre-chat form fields
-	//embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
-	//embedded_svc.settings.offlineSupportMinimizedText = '...'; //(Defaults to Contact Us)
+embedded_svc.settings.enabledFeatures = ['LiveAgent'];
+embedded_svc.settings.entryFeature = 'LiveAgent';
 
-	embedded_svc.settings.enabledFeatures = ['LiveAgent'];
-	embedded_svc.settings.entryFeature = 'LiveAgent';
-
-	embedded_svc.init('https://mbo--UAT.cs47.my.salesforce.com', 'https://uat-mbopartners.cs47.force.com/connect', gslbBaseURL, '00D2a0000000PO5', 'connect_support', { baseLiveAgentContentURL: 'https://c.la2-c2cs-ord.salesforceliveagent.com/content', deploymentId: '5722a0000004CD0', buttonId: '5732a0000004CXF', baseLiveAgentURL: 'https://d.la2-c2cs-ord.salesforceliveagent.com/chat', eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I2a000000000VEAQ_16539f45828', isOfflineSupportEnabled: false}); };if (!window.embedded_svc) { var s = document.createElement('script'); s.setAttribute('src', 'https://mbo--UAT.cs47.my.salesforce.com/embeddedservice/5.0/esw.min.js'); s.onload = function() { initESW(null); }; document.body.appendChild(s); } else { initESW('https://service.force.com'); }</script>
-
-
-		<a id="liveagent_button_online_5732a0000004CXF" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('5732a0000004CXF')">Click here to launch support chat</a><div id="liveagent_button_offline_5732a0000004CXF" style="display: none;">support chat not available</div><script type="text/javascript">
-	if (!window._laq) { window._laq = []; }
-	window._laq.push(function(){liveagent.showWhenOnline('5732a0000004CXF', document.getElementById('liveagent_button_online_5732a0000004CXF'));
-	liveagent.showWhenOffline('5732a0000004CXF', document.getElementById('liveagent_button_offline_5732a0000004CXF'));
-	});</script>
-
-		<script type='text/javascript' src='https://c.la2-c2cs-ord.salesforceliveagent.com/content/g/js/43.0/deployment.js'></script>
-		<script type='text/javascript'>
-		liveagent.init('https://d.la2-c2cs-ord.salesforceliveagent.com/chat', '5722a0000004CD0', '00D2a0000000PO5');
-		</script>
-	</body>
-</html>
+embedded_svc.init('https://mbo--UAT.cs47.my.salesforce.com', 'https://uat-mbopartners.cs47.force.com/connect', gslbBaseURL, '00D2a0000000PO5', 'connect_support', { baseLiveAgentContentURL: 'https://c.la2-c2cs-ord.salesforceliveagent.com/content', deploymentId: '5722a0000004CD0', buttonId: '5732a0000004CXF', baseLiveAgentURL: 'https://d.la2-c2cs-ord.salesforceliveagent.com/chat', eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I2a000000000VEAQ_16539f45828', isOfflineSupportEnabled: true}); };if (!window.embedded_svc) { var s = document.createElement('script'); s.setAttribute('src', 'https://mbo--UAT.cs47.my.salesforce.com/embeddedservice/5.0/esw.min.js'); s.onload = function() { initESW(null); }; document.body.appendChild(s); } else { initESW('https://service.force.com'); }</script>
