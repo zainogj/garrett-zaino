@@ -1,3 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>garrett-zaino: home</title>
+		<link rel="stylesheet" type="text/css" href="/assets/styles/slds.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	</head>
+	<body>
+		<h1>Some Header</h1>
+		<p></p>
+
+		<hr/>
+		<ol>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+		</ol>
 <style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton { background-color: #8B8888; font-family: "Georgia", sans-serif; }
 	.embeddedServiceHelpButton .helpButton .uiButton:focus { outline: 1px solid #8B8888; }
@@ -28,3 +46,18 @@ embedded_svc.settings.enabledFeatures = ['LiveAgent'];
 embedded_svc.settings.entryFeature = 'LiveAgent';
 
 embedded_svc.init('https://mbo--UAT.cs47.my.salesforce.com', 'https://uat-mbopartners.cs47.force.com/connect', gslbBaseURL, '00D2a0000000PO5', 'connect_support', { baseLiveAgentContentURL: 'https://c.la2-c2cs-ord.salesforceliveagent.com/content', deploymentId: '5722a0000004CD0', buttonId: '5732a0000004CXF', baseLiveAgentURL: 'https://d.la2-c2cs-ord.salesforceliveagent.com/chat', eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I2a000000000VEAQ_16539f45828', isOfflineSupportEnabled: true}); };if (!window.embedded_svc) { var s = document.createElement('script'); s.setAttribute('src', 'https://mbo--UAT.cs47.my.salesforce.com/embeddedservice/5.0/esw.min.js'); s.onload = function() { initESW(null); }; document.body.appendChild(s); } else { initESW('https://service.force.com'); }</script>
+
+
+		
+		<a id="liveagent_button_online_5732a0000004CXF" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('5732a0000004CXF')">Click here to launch support chat</a><div id="liveagent_button_offline_5732a0000004CXF" style="display: none;">support chat not available</div><script type="text/javascript">
+	if (!window._laq) { window._laq = []; }
+	window._laq.push(function(){liveagent.showWhenOnline('5732a0000004CXF', document.getElementById('liveagent_button_online_5732a0000004CXF'));
+	liveagent.showWhenOffline('5732a0000004CXF', document.getElementById('liveagent_button_offline_5732a0000004CXF'));
+	});</script>
+
+		<script type='text/javascript' src='https://c.la2-c2cs-ord.salesforceliveagent.com/content/g/js/43.0/deployment.js'></script>
+		<script type='text/javascript'>
+		liveagent.init('https://d.la2-c2cs-ord.salesforceliveagent.com/chat', '5722a0000004CD0', '00D2a0000000PO5');
+		</script>
+	</body>
+</html>
