@@ -16,6 +16,8 @@
 			<li>3</li>
 			<li>4</li>
 		</ol>
+		
+<!--BEGIN SNAP IN IMPLEMENTATION-->
 <style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton { background-color: #005290; font-family: "Salesforce Sans", sans-serif; }
 	.embeddedServiceHelpButton .helpButton .uiButton:focus { outline: 1px solid #005290; }
@@ -51,18 +53,15 @@ embedded_svc.settings.enabledFeatures = ['LiveAgent'];
 embedded_svc.settings.entryFeature = 'LiveAgent';
 
 embedded_svc.init('https://mbo--UAT.cs47.my.salesforce.com', 'https://uat-mbopartners.cs47.force.com/connect', gslbBaseURL, '00D2a0000000PO5', 'Snap_in_Agent', { baseLiveAgentContentURL: 'https://c.la2-c2cs-ord.salesforceliveagent.com/content', deploymentId: '5722a0000004CDF', buttonId: '5732a0000004CXK', baseLiveAgentURL: 'https://d.la2-c2cs-ord.salesforceliveagent.com/chat', eswLiveAgentDevName: 'Snap_in_Agent', isOfflineSupportEnabled: false}); };if (!window.embedded_svc) { var s = document.createElement('script'); s.setAttribute('src', 'https://mbo--UAT.cs47.my.salesforce.com/embeddedservice/5.0/esw.min.js'); s.onload = function() { initESW(null); }; document.body.appendChild(s); } else { initESW('https://service.force.com'); }</script>
+<!--END SNAP IN IMPLEMENTATION-->
 
-
-		
-		<a id="liveagent_button_online_5732a0000004CXF" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('5732a0000004CXF')">Click here to launch support chat</a><div id="liveagent_button_offline_5732a0000004CXF" style="display: none;">support chat not available</div><script type="text/javascript">
-	if (!window._laq) { window._laq = []; }
-	window._laq.push(function(){liveagent.showWhenOnline('5732a0000004CXF', document.getElementById('liveagent_button_online_5732a0000004CXF'));
-	liveagent.showWhenOffline('5732a0000004CXF', document.getElementById('liveagent_button_offline_5732a0000004CXF'));
-	});</script>
-
-		<script type='text/javascript' src='https://c.la2-c2cs-ord.salesforceliveagent.com/content/g/js/43.0/deployment.js'></script>
-		<script type='text/javascript'>
-		liveagent.init('https://d.la2-c2cs-ord.salesforceliveagent.com/chat', '5722a0000004CD0', '00D2a0000000PO5');
-		</script>
+<!--BEGIN LIVE AGENT IMPLEMENTATION-->		
+<a id="liveagent_button_online_5732a0000004CXF" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('5732a0000004CXF')"><!-- Online Chat Content --></a><div id="liveagent_button_offline_5732a0000004CXF" style="display: none;"><!-- Offline Chat Content --></div><script type="text/javascript">
+if (!window._laq) { window._laq = []; }
+window._laq.push(function(){liveagent.showWhenOnline('5732a0000004CXF', document.getElementById('liveagent_button_online_5732a0000004CXF'));
+liveagent.showWhenOffline('5732a0000004CXF', document.getElementById('liveagent_button_offline_5732a0000004CXF'));
+});</script>
+<!--END LIVE AGENT IMPLEMENTATION-->
+	
 	</body>
 </html>
