@@ -64,34 +64,63 @@
 			"label": "MBO ID",
 			"value": "123456789",
 			"displayToAgent": false
+			}, {
+			"label": "Type",
+			"value": "Technology",
+			"displayToAgent": false
+			}, {
+			"label": "Component",
+			"value": "MBO Connect",
+			"displayToAgent": false
 			}];
 		embedded_svc.settings.extraPrechatInfo = [{
 			"entityFieldMaps": [{
-			"doCreate":false,
-			"doFind":false,
-			"fieldName":"LastName",
-			"isExactMatch":false,
-			"label":"Last Name"
-			}, {
-			"doCreate":false,
-			"doFind":false,
-			"fieldName":"FirstName",
-			"isExactMatch":false,
-			"label":"First Name"
-			}, {
-			"doCreate":false,
-			"doFind":false,
-			"fieldName":"Email",
-			"isExactMatch":false,
-			"label":"Email"
-			}, {
-			"doCreate":false,
-			"doFind":true,
-			"fieldName":"mbo_id__c",
-			"isExactMatch":true,
-			"label":"MBO ID"
+				"doCreate":false,
+				"doFind":false,
+				"fieldName":"LastName",
+				"isExactMatch":false,
+				"label":"Last Name"
+				}, {
+				"doCreate":false,
+				"doFind":false,
+				"fieldName":"FirstName",
+				"isExactMatch":false,
+				"label":"First Name"
+				}, {
+				"doCreate":false,
+				"doFind":false,
+				"fieldName":"Email",
+				"isExactMatch":false,
+				"label":"Email"
+				}, {
+				"doCreate":false,
+				"doFind":true,
+				"fieldName":"mbo_id__c",
+				"isExactMatch":true,
+				"label":"MBO ID"
 			}],
 			"entityName":"Contact"
+			},{
+			"entityFieldMaps": [{
+				"doCreate":true,
+				"doFind":false,
+				"fieldName":"Type",
+				"isExactMatch":false,
+				"label":"Type"
+				}, {
+				"doCreate":true,
+				"doFind":false,
+				"fieldName":"Jira_Component__c",
+				"isExactMatch":false,
+				"label":"Component"
+				}, {
+				"doCreate":true,
+				"doFind":false,
+				"fieldName":"Subject",
+				"isExactMatch":false,
+				"label":"Subject"
+				}],
+			"entityName":"Case"
 			}];
 		//embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
 		//embedded_svc.settings.offlineSupportMinimizedText = '...'; //(Defaults to Contact Us)
@@ -127,7 +156,6 @@
 		initESW('https://service.force.com');
 	}
 </script>
-
 		<!--END SNAP IN IMPLEMENTATION-->
 
 	</body>
