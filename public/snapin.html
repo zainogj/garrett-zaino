@@ -36,57 +36,6 @@
 		embedded_svc.settings.displayHelpButton = true; //Or false
 		embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
 
-
-		embedded_svc.settings.enabledFeatures = ['LiveAgent'];
-		embedded_svc.settings.entryFeature = 'LiveAgent';
-
-		embedded_svc.init(
-			'https://mbo--UAT.cs47.my.salesforce.com',
-			'https://uat-mbopartners.cs47.force.com/connect',
-			gslbBaseURL,
-			'00D2a0000000PO5',
-			'connect_support',
-			{
-				baseLiveAgentContentURL: 'https://c.la2-c2cs-ord.salesforceliveagent.com/content',
-				deploymentId: '5722a0000004CD0',
-				buttonId: '5732a0000004CXF',
-				baseLiveAgentURL: 'https://d.la2-c2cs-ord.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I2a000000000VEAQ_16539f45828',
-				isOfflineSupportEnabled: true
-			}
-		);
-	};
-
-	if (!window.embedded_svc) {
-		var s = document.createElement('script');
-		s.setAttribute('src', 'https://mbo--UAT.cs47.my.salesforce.com/embeddedservice/5.0/esw.min.js');
-		s.onload = function() {
-			initESW(null);
-		};
-		document.body.appendChild(s);
-	} else {
-		initESW('https://service.force.com');
-	}
-</script>
-
-
-
-<style type='text/css'>
-	.embeddedServiceHelpButton .helpButton .uiButton {
-		background-color: #8B8888;
-		font-family: "OpenSans", sans-serif;
-	}
-	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-		outline: 1px solid #8B8888;
-	}
-</style>
-
-<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
-<script type='text/javascript'>
-	var initESW = function(gslbBaseURL) {
-		embedded_svc.settings.displayHelpButton = true; //Or false
-		embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
-
 		embedded_svc.settings.extraPrechatFormDetails = [{
 			"label": "First Name",
 			"value": "John",
@@ -176,7 +125,7 @@
 				"doFind": false,
 				"label": "Request Type"
 				}]
-			}]
+			}];
 		embedded_svc.settings.enabledFeatures = ['LiveAgent'];
 		embedded_svc.settings.entryFeature = 'LiveAgent';
 
