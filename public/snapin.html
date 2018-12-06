@@ -151,6 +151,10 @@
 		var s = document.createElement('script');
 		s.setAttribute('src', 'https://mbo--UAT.cs47.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
+			embedded_svc.addEventHandler("onHelpButtonClick", function(data) {
+			    console.log("onHelpButtonClick event was fired.");
+			});
+
 			initESW(null);
 			console.log('initESW complete');
 		};
