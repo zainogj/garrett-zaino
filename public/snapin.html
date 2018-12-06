@@ -152,8 +152,12 @@
 		s.setAttribute('src', 'https://mbo--UAT.cs47.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
+			console.log('initESW complete');
 		};
+		console.log('appendChild start');
 		document.body.appendChild(s);
+		console.log('appendChild complete');
+		
 	} else {
 		initESW('https://service.force.com');
 	}
