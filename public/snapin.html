@@ -129,10 +129,9 @@
 
 		embedded_svc.settings.enabledFeatures = ['LiveAgent'];
 		embedded_svc.settings.entryFeature = 'LiveAgent';
-		embedded_svc.addEventHandler("onHelpButtonClick", function(data) {
-    			console.log("onHelpButtonClick event was fired.");
-		});
-
+		embedded_svc.addEventHandler("offlineSupportState", function(data) {
+		    			console.log("offlineSupportState event was fired.");
+				});
 		embedded_svc.init(
 			'https://mbo--UAT.cs47.my.salesforce.com',
 			'https://uat-mbopartners.cs47.force.com/connect',
@@ -155,19 +154,12 @@
 		s.setAttribute('src', 'https://mbo--UAT.cs47.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
-			console.log('initESW complete');
 		};
-		console.log('appendChild start');
 		document.body.appendChild(s);
-		console.log('appendChild complete');
-		
 	} else {
-		console.log('init start');
 		initESW('https://service.force.com');
-		console.log('init end');
 	}
-</script>
-		<!--END SNAP IN IMPLEMENTATION-->
+</script>		<!--END SNAP IN IMPLEMENTATION-->
 
 	</body>
 </html>
