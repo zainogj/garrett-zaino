@@ -133,10 +133,6 @@
 			}];
 		embedded_svc.settings.enabledFeatures = ['LiveAgent'];
 		embedded_svc.settings.entryFeature = 'LiveAgent';
-		console.log(embedded_svc.liveagentAPI.getCustomEvents());
-		embedded_svc.addEventHandler("offlineSupportState", function(data) {
-		    			console.log("offlineSupportState event was fired.");
-				});
 		embedded_svc.init(
 			'https://mbo--UAT.cs47.my.salesforce.com',
 			'https://uat-mbopartners.cs47.force.com/connect',
@@ -167,5 +163,10 @@
 </script>
 
 <!--END SNAP IN IMPLEMENTATION-->
+		
+		<script type='text/javascript'>
+			const body = document.querySelector('body');
+                        body.addEventListener('offline', console.log('it worked'));
+		</script>
 	</body>
 </html>
