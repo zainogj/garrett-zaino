@@ -133,7 +133,7 @@
 			}];
 		embedded_svc.settings.enabledFeatures = ['LiveAgent'];
 		embedded_svc.settings.entryFeature = 'LiveAgent';
-		embedded_svc.addEventHandler("onOfflineSupportState", function(data) {
+		embedded_svc.addEventHandler("offlineSupportState", function(data) {
 		    			console.log("offlineSupportState event was fired.");
 				});
 		embedded_svc.init(
