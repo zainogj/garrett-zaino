@@ -182,7 +182,21 @@
 		url('https://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.ttf') format('truetype');
 	}
 </style>
-
+<style type='text/css'>
+	.embeddedServiceHelpButton .helpButton .uiButton {
+		background-color: #005290;
+		font-family: "Salesforce Sans", sans-serif;
+	}
+	.embeddedServiceHelpButton .helpButton .uiButton:focus {
+		outline: 1px solid #005290;
+	}
+	@font-face {
+		font-family: 'Salesforce Sans';
+		src: url('https://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.woff') format('woff'),
+		url('https://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.ttf') format('truetype');
+	}
+</style>
+<!--BEGIN SNAP IN IMPLEMENTATION-->
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
 <script type='text/javascript'>
 	var initESW = function(gslbBaseURL) {
@@ -208,25 +222,25 @@
 		embedded_svc.settings.entryFeature = 'LiveAgent';
 
 		embedded_svc.init(
-			'https://mbo--UAT.cs47.my.salesforce.com',
-			'https://uat-mbopartners.cs47.force.com/connect',
+			'https://mbo.my.salesforce.com',
+			'https://mbopartners.secure.force.com/connect',
 			gslbBaseURL,
-			'00D2a0000000PO5',
-			'test',
+			'00D80000000c6Xq',
+			'connect_support',
 			{
-				baseLiveAgentContentURL: 'https://c.la2-c2cs-iad.salesforceliveagent.com/content',
-				deploymentId: '5722a000000CaTS',
-				buttonId: '5732a000000CacV',
-				baseLiveAgentURL: 'https://d.la2-c2cs-iad.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I2a0000004CApEAM_168857be5d2',
-				isOfflineSupportEnabled: false
+				baseLiveAgentContentURL: 'https://c.la2-c2-iad.salesforceliveagent.com/content',
+				deploymentId: '5720h000000TP5I',
+				buttonId: '5730h000000TPAO',
+				baseLiveAgentURL: 'https://d.la2-c2-iad.salesforceliveagent.com/chat',
+				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I0h000000KylWEAS_16863eae491',
+				isOfflineSupportEnabled: true
 			}
 		);
 	};
 
 	if (!window.embedded_svc) {
 		var s = document.createElement('script');
-		s.setAttribute('src', 'https://mbo--UAT.cs47.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+		s.setAttribute('src', 'https://mbo.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
 		};
@@ -234,9 +248,7 @@
 	} else {
 		initESW('https://service.force.com');
 	}
-</script>
-
-<!--END SNAP IN IMPLEMENTATION-->
+</script><!--END SNAP IN IMPLEMENTATION-->
 		
 	</body>
 </html>
