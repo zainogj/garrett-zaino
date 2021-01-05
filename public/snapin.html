@@ -87,11 +87,16 @@
 		<!-- BEGIN UAT SNAP IN IMPLEMENTATION -->
 		<style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton {
-		background-color: #e8ebed;
-		font-family: "OpenSans", sans-serif;
+		background-color: #005290;
+		font-family: "Salesforce Sans", sans-serif;
 	}
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-		outline: 1px solid #e8ebed;
+		outline: 1px solid #005290;
+	}
+	@font-face {
+		font-family: 'Salesforce Sans';
+		src: url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.woff') format('woff'),
+		url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.ttf') format('truetype');
 	}
 </style>
 
@@ -120,17 +125,17 @@
 		embedded_svc.settings.entryFeature = 'LiveAgent';
 
 		embedded_svc.init(
-			'https://mbo--UAT.my.salesforce.com',
-			'https://uat-mbopartners.cs47.force.com/connect',
+			'https://mbo--uat.my.salesforce.com',
+			'https://uat-mbopartners.cs125.force.com/connect',
 			gslbBaseURL,
-			'00D2a0000000PO5',
+			'00D3K0000000N6Q',
 			'connect_support',
 			{
-				baseLiveAgentContentURL: 'https://c.la2-c1cs-iad.salesforceliveagent.com/content',
-				deploymentId: '5722a0000004CD0',
-				buttonId: '5732a0000004CXF',
-				baseLiveAgentURL: 'https://d.la2-c1cs-iad.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I2a000000000VEAQ_16539f45828',
+				baseLiveAgentContentURL: 'https://c.la1-c1cs-ia4.salesforceliveagent.com/content',
+				deploymentId: '5720h000000TP5I',
+				buttonId: '5730h000000TPAO',
+				baseLiveAgentURL: 'https://d.la1-c1cs-ia4.salesforceliveagent.com/chat',
+				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I0h000000KylWEAS_16863eae491',
 				isOfflineSupportEnabled: true
 			}
 		);
@@ -138,7 +143,7 @@
 
 	if (!window.embedded_svc) {
 		var s = document.createElement('script');
-		s.setAttribute('src', 'https://mbo--UAT.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+		s.setAttribute('src', 'https://mbo--uat.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
 		};
