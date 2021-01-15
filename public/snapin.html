@@ -238,6 +238,11 @@
 		  label: 'Root Cause',
 		  value: 'Complete',
 		  displayToAgent: false
+		},
+		{
+		  label: 'Record Type Id',
+		  value: '012C0000000QVtQIAW',
+		  displayToAgent: false
 		}
 	  ];
 	  embedded_svc.settings.extraPrechatInfo = [
@@ -283,7 +288,14 @@
         showOnCreate: true,
         saveToTranscript: 'CaseId',
         entityFieldMaps: [
-          {
+		  {
+            isExactMatch: false,
+            fieldName: 'RecordTypeid',
+            doCreate: true,
+            doFind: false,
+            label: 'Record Type Id'
+		  },
+		  {
             isExactMatch: false,
             fieldName: 'Subject',
             doCreate: true,
