@@ -198,27 +198,42 @@
 		{
 		  label: 'MBO ID',
 		  value: '69ec66a2-d1c8-4c19-8e0f-06ad4fd0cc59',
-		  displayToAgent: true
+		  displayToAgent: false
 		},
 		{
 		  label: 'Subject',
 		  value: `MBO Marketplace Request For Whitney Houston`,
-		  displayToAgent: true
+		  displayToAgent: false
+		},
+		{
+		  label: 'Status',
+		  value: 'Closed',
+		  displayToAgent: false
 		},
 		{
 		  label: 'Type',
 		  value: 'Technology',
-		  displayToAgent: true
+		  displayToAgent: false
 		},
 		{
 		  label: 'Component',
 		  value: 'MBO Marketplace',
-		  displayToAgent: true
+		  displayToAgent: false
 		},
 		{
 		  label: 'Case Origin',
 		  value: 'Chat',
-		  displayToAgent: true
+		  displayToAgent: false
+		},
+		{
+		  label: 'Client',
+		  value: '0011k00000brsAIAAY',
+		  displayToAgent: false
+		},
+		{
+		  label: 'Root Cause',
+		  value: 'Complete',
+		  displayToAgent: false
 		}
 	  ];
 	  embedded_svc.settings.extraPrechatInfo = [
@@ -291,6 +306,27 @@
             doCreate: true,
             doFind: false,
             label: 'Origin'
+		  },
+		  {
+            isExactMatch: false,
+            fieldName: 'Root_Cause__c',
+            doCreate: true,
+            doFind: false,
+            label: 'Root Cause'
+		  },
+		  {
+            isExactMatch: false,
+            fieldName: 'Client__c',
+            doCreate: true,
+            doFind: false,
+            label: 'Client'
+		  },
+		  {
+            isExactMatch: false,
+            fieldName: 'Status',
+            doCreate: true,
+            doFind: false,
+            label: 'Status'
 		  }
         ]
       }
