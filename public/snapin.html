@@ -195,7 +195,7 @@
             },{
                 "label":"Email",
                 "name":"Email",
-                "value":"gz2-9-21@example.com",
+                "value":"gz2-9-21-a@example.com",
                 "transcriptFields":["embeddedServiceEmail__c"],
                 "displayToAgent":true
             },{
@@ -240,8 +240,8 @@
             {
                 "entityName":"Contact",
                 "showOnCreate":true,
-                //"linkToentityName":"Case",
-                //"linkToEntityField":"ContactId",
+                "linkToentityName":"Case",
+                "linkToEntityField":"ContactId",
                 "saveToTranscript":"ContactId",
                 "entityFieldMaps":[
                 {
@@ -262,12 +262,12 @@
                     "doCreate":true,
                     "doFind":false,
                     "label":"Email"
-                }/**,{
+                },{
                     "isExactMatch":true,
                     "fieldName":"MBO_Id__c",
                     "doCreate":true,
                     "doFind":true,
-                    "label":"MBO ID"}**/]
+                    "label":"MBO ID"}]
             },{
                 "entityName":"Case",
                 "showOnCreate":true,
